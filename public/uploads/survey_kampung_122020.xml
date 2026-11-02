@@ -1,0 +1,4609 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Survey Kampung (Des-20)</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="static_instance-kampung-165">
+            <value>MAKBON</value>
+          </text>
+          <text id="static_instance-kampung-164">
+            <value>ARUI</value>
+          </text>
+          <text id="static_instance-kampung-167">
+            <value>MALAUMKARTA</value>
+          </text>
+          <text id="static_instance-kampung-166">
+            <value>ASBAKEN</value>
+          </text>
+          <text id="static_instance-kampung-161">
+            <value>HARITI</value>
+          </text>
+          <text id="static_instance-kampung-160">
+            <value>MAMBOR</value>
+          </text>
+          <text id="static_instance-kampung-163">
+            <value>KAMA</value>
+          </text>
+          <text id="static_instance-kampung-162">
+            <value>MOOR</value>
+          </text>
+          <text id="static_instance-sid1-1">
+            <value>Setiap 2-6 bulan</value>
+          </text>
+          <text id="static_instance-sid1-0">
+            <value>Setiap bulan</value>
+          </text>
+          <text id="static_instance-sid1-3">
+            <value>Jarang sekali atau tidak pernah</value>
+          </text>
+          <text id="static_instance-sid1-2">
+            <value>Setiap 7-12 bulan</value>
+          </text>
+          <text id="static_instance-kampung-169">
+            <value>BATU LUBANG PANTAI</value>
+          </text>
+          <text id="static_instance-kampung-168">
+            <value>BATU LUBANG</value>
+          </text>
+          <text id="static_instance-metode-2">
+            <value>Responden mengisi langsung kuesioner hard copy</value>
+          </text>
+          <text id="static_instance-metode-3">
+            <value>Responden mengisi langsung kuesioner secara online (melalui tautan data entry)</value>
+          </text>
+          <text id="static_instance-metode-0">
+            <value>Wawancara langsung (face-to-face interview)</value>
+          </text>
+          <text id="static_instance-metode-1">
+            <value>Wawancara melalui telepon</value>
+          </text>
+          <text id="static_instance-kampung-8">
+            <value>SAW</value>
+          </text>
+          <text id="static_instance-kampung-9">
+            <value>KAYE</value>
+          </text>
+          <text id="static_instance-metode-4">
+            <value>Lainnya</value>
+          </text>
+          <text id="static_instance-kampung-4">
+            <value>BISMAN</value>
+          </text>
+          <text id="static_instance-kampung-5">
+            <value>PER</value>
+          </text>
+          <text id="static_instance-kampung-6">
+            <value>BRITEN</value>
+          </text>
+          <text id="static_instance-kampung-7">
+            <value>MBAIT</value>
+          </text>
+          <text id="static_instance-kampung-0">
+            <value>BIS AGATS</value>
+          </text>
+          <text id="static_instance-kampung-1">
+            <value>UWUS</value>
+          </text>
+          <text id="static_instance-kampung-2">
+            <value>YOMOTH</value>
+          </text>
+          <text id="static_instance-kampung-3">
+            <value>ASUWETSY</value>
+          </text>
+          <text id="static_instance-kampung-58">
+            <value>SABRO YARU</value>
+          </text>
+          <text id="static_instance-kampung-59">
+            <value>DOSAY</value>
+          </text>
+          <text id="static_instance-distrik-0">
+            <value>AGATS</value>
+          </text>
+          <text id="static_instance-aktelahir-0">
+            <value>Dalam 24 jam</value>
+          </text>
+          <text id="static_instance-sidman-0">
+            <value>SID tidak digunakan untuk hal ini</value>
+          </text>
+          <text id="static_instance-kampung-52">
+            <value>SEKBAN</value>
+          </text>
+          <text id="static_instance-kampung-53">
+            <value>TOREA</value>
+          </text>
+          <text id="static_instance-kampung-50">
+            <value>TANAMA</value>
+          </text>
+          <text id="static_instance-kampung-51">
+            <value>KAPAURTUTIN</value>
+          </text>
+          <text id="static_instance-kampung-56">
+            <value>WAIBRON</value>
+          </text>
+          <text id="static_instance-kampung-57">
+            <value>SABRON SARI</value>
+          </text>
+          <text id="static_instance-kampung-54">
+            <value>SEKRU</value>
+          </text>
+          <text id="static_instance-kampung-55">
+            <value>SUKURU TUARE</value>
+          </text>
+          <text id="static_instance-hasil-0">
+            <value>Baru Mulai</value>
+          </text>
+          <text id="static_instance-hasil-1">
+            <value>Sedang Proses</value>
+          </text>
+          <text id="static_instance-hasil-2">
+            <value>Hampir Selesai</value>
+          </text>
+          <text id="static_instance-hasil-3">
+            <value>Sudah Selesai</value>
+          </text>
+          <text id="static_instance-sp-2">
+            <value>Tidak Dilakukan</value>
+          </text>
+          <text id="static_instance-sp-1">
+            <value>Tidak</value>
+          </text>
+          <text id="static_instance-sp-0">
+            <value>Ya</value>
+          </text>
+          <text id="static_instance-kampung-49">
+            <value>DULANPOKPOK</value>
+          </text>
+          <text id="static_instance-admin-1">
+            <value>Ya, Aparat desa yang menyediakan layanan adminduk, tetapi memiliki tugas lainnya</value>
+          </text>
+          <text id="static_instance-kampung-48">
+            <value>WAGOM UTARA</value>
+          </text>
+          <text id="static_instance-sid3-3">
+            <value>Tidak pernah (0%)</value>
+          </text>
+          <text id="static_instance-kampung-180">
+            <value>SEGET</value>
+          </text>
+          <text id="static_instance-sid3-2">
+            <value>Jarang (&lt;50%)</value>
+          </text>
+          <text id="static_instance-sid2-2">
+            <value>Ya, tetapi terhubung secara paper- based (offline)</value>
+          </text>
+          <text id="static_instance-sid2-3">
+            <value>Tidak terhubung</value>
+          </text>
+          <text id="static_instance-kampung-178">
+            <value>SUATOLO</value>
+          </text>
+          <text id="static_instance-kampung-179">
+            <value>MIBI</value>
+          </text>
+          <text id="static_instance-sid2-0">
+            <value>Ya, terhubung secara online</value>
+          </text>
+          <text id="static_instance-sid3-1">
+            <value>Sering (&gt;50%)</value>
+          </text>
+          <text id="static_instance-distrik-5">
+            <value>FAK-FAK BARAT</value>
+          </text>
+          <text id="static_instance-distrik-4">
+            <value>KOMBUT</value>
+          </text>
+          <text id="static_instance-kampung-172">
+            <value>TELUK DORE</value>
+          </text>
+          <text id="static_instance-kampung-173">
+            <value>SAWATUK</value>
+          </text>
+          <text id="static_instance-kampung-170">
+            <value>KWADAS</value>
+          </text>
+          <text id="static_instance-kampung-171">
+            <value>BAINKETE</value>
+          </text>
+          <text id="static_instance-kampung-176">
+            <value>KLASIGI</value>
+          </text>
+          <text id="static_instance-kampung-177">
+            <value>KLAGULUS</value>
+          </text>
+          <text id="static_instance-kampung-174">
+            <value>MALAGASIH</value>
+          </text>
+          <text id="static_instance-kampung-175">
+            <value>KLASIMIGIK</value>
+          </text>
+          <text id="static_instance-sidupdate-4">
+            <value>Setiap 7-12 bulan</value>
+          </text>
+          <text id="static_instance-sidupdate-5">
+            <value>Jarang atau tidak pernah</value>
+          </text>
+          <text id="static_instance-sidupdate-0">
+            <value>Setiap hari</value>
+          </text>
+          <text id="static_instance-sidupdate-1">
+            <value>Setiap minggu</value>
+          </text>
+          <text id="static_instance-sidupdate-2">
+            <value>Setiap bulan</value>
+          </text>
+          <text id="static_instance-sidupdate-3">
+            <value>Setiap 2-6 bulan</value>
+          </text>
+          <text id="static_instance-kampung-41">
+            <value>KWUHKENDAK</value>
+          </text>
+          <text id="static_instance-kampung-40">
+            <value>WURKENDIK</value>
+          </text>
+          <text id="static_instance-kampung-43">
+            <value>PAHGER NKINDIK</value>
+          </text>
+          <text id="static_instance-kampung-42">
+            <value>PURWAHAB TONGGO</value>
+          </text>
+          <text id="static_instance-kampung-45">
+            <value>PORUM</value>
+          </text>
+          <text id="static_instance-kampung-44">
+            <value>WERBA UTARA</value>
+          </text>
+          <text id="static_instance-kampung-47">
+            <value>WAGOM</value>
+          </text>
+          <text id="static_instance-kampung-46">
+            <value>KIAT</value>
+          </text>
+          <text id="static_instance-apk-3">
+            <value>CRI (Combine Resource Institution)</value>
+          </text>
+          <text id="static_instance-apk-2">
+            <value>OPENSID</value>
+          </text>
+          <text id="static_instance-apk-1">
+            <value>SIDEKA (Sistem Informasi Desa dan Kawasan)</value>
+          </text>
+          <text id="static_instance-apk-0">
+            <value>PRODESKEL (Profil Desa dan Kelurahan)</value>
+          </text>
+          <text id="static_instance-apk-7">
+            <value>SIADEK</value>
+          </text>
+          <text id="static_instance-apk-6">
+            <value>SAID Bondowoso</value>
+          </text>
+          <text id="static_instance-apk-5">
+            <value>SIGAP (SIG Kominsa Aceh)</value>
+          </text>
+          <text id="static_instance-apk-4">
+            <value>MITRA DESA</value>
+          </text>
+          <text id="static_instance-apk-9">
+            <value>Manual menggunakan buku registrasi kependudukan</value>
+          </text>
+          <text id="static_instance-apk-8">
+            <value>SAIK/SAID Papua</value>
+          </text>
+          <text id="static_instance-datasid-1">
+            <value>Ya, disimpan manual (paperbased)</value>
+          </text>
+          <text id="static_instance-sid-3">
+            <value>Tidak ada</value>
+          </text>
+          <text id="static_instance-sidman-4">
+            <value>Sangat Bermanfaat</value>
+          </text>
+          <text id="static_instance-datasid-2">
+            <value>Tidak</value>
+          </text>
+          <text id="static_instance-admin-2">
+            <value>Tidak, seluruh layanan adminduk hanya tersedia di luar desa</value>
+          </text>
+          <text id="static_instance-sid-2">
+            <value>Ya, Manual, dengan sistem Buku Register</value>
+          </text>
+          <text id="static_instance-ya-0">
+            <value>Ya</value>
+          </text>
+          <text id="static_instance-lain-0">
+            <value>Ya</value>
+          </text>
+          <text id="static_instance-sid4-1">
+            <value>Ya, tercatat di atas kertas (paper-based)</value>
+          </text>
+          <text id="static_instance-kampung-109">
+            <value>GILO</value>
+          </text>
+          <text id="static_instance-kampung-108">
+            <value>YIGEMILI</value>
+          </text>
+          <text id="static_instance-kampung-107">
+            <value>WABIRAGI</value>
+          </text>
+          <text id="static_instance-kampung-106">
+            <value>ABUA</value>
+          </text>
+          <text id="static_instance-kampung-105">
+            <value>GUMAGAME</value>
+          </text>
+          <text id="static_instance-kampung-104">
+            <value>WERI</value>
+          </text>
+          <text id="static_instance-kampung-103">
+            <value>NINENGWA</value>
+          </text>
+          <text id="static_instance-kampung-102">
+            <value>GOLIKME</value>
+          </text>
+          <text id="static_instance-kampung-101">
+            <value>NINABUA</value>
+          </text>
+          <text id="static_instance-kampung-100">
+            <value>TEPOGI</value>
+          </text>
+          <text id="static_instance-nil-4">
+            <value>Lainnya</value>
+          </text>
+          <text id="static_instance-gender-0">
+            <value>Laki-laki</value>
+          </text>
+          <text id="static_instance-ya-1">
+            <value>Tidak</value>
+          </text>
+          <text id="static_instance-kampung-78">
+            <value>WAHO</value>
+          </text>
+          <text id="static_instance-kampung-79">
+            <value>WAMESA</value>
+          </text>
+          <text id="static_instance-nil-2">
+            <value>Pernah ada, namun sekarang sudah tidak ada</value>
+          </text>
+          <text id="static_instance-nil-3">
+            <value>Tidak ada</value>
+          </text>
+          <text id="static_instance-kampung-74">
+            <value>MUAIF</value>
+          </text>
+          <text id="static_instance-kampung-75">
+            <value>RAUNA</value>
+          </text>
+          <text id="static_instance-kampung-76">
+            <value>WERAFUTA</value>
+          </text>
+          <text id="static_instance-kampung-77">
+            <value>UBIA SERMUKU</value>
+          </text>
+          <text id="static_instance-kampung-70">
+            <value>YOUGAPSA</value>
+          </text>
+          <text id="static_instance-kampung-71">
+            <value>MURIS KECIL</value>
+          </text>
+          <text id="static_instance-kampung-72">
+            <value>YAKORE</value>
+          </text>
+          <text id="static_instance-kampung-73">
+            <value>KAMDERA</value>
+          </text>
+          <text id="static_instance-kampung-187">
+            <value>MOBI</value>
+          </text>
+          <text id="static_instance-kampung-186">
+            <value>WAYENKEDE</value>
+          </text>
+          <text id="static_instance-kampung-185">
+            <value>KLAYAS</value>
+          </text>
+          <text id="static_instance-kampung-184">
+            <value>WEWENAGU</value>
+          </text>
+          <text id="static_instance-kampung-183">
+            <value>KASIMLE</value>
+          </text>
+          <text id="static_instance-kampung-182">
+            <value>PULAU KASIM</value>
+          </text>
+          <text id="static_instance-kampung-181">
+            <value>MALABAN</value>
+          </text>
+          <text id="static_instance-kampung-159">
+            <value>AIR MANDIDI</value>
+          </text>
+          <text id="static_instance-distrik-7">
+            <value>SENTANI BARAT</value>
+          </text>
+          <text id="static_instance-sidman-1">
+            <value>Tidak Bermanfaat</value>
+          </text>
+          <text id="static_instance-datasid-3">
+            <value>N/A</value>
+          </text>
+          <text id="static_instance-kampung-188">
+            <value>WASINGSAN</value>
+          </text>
+          <text id="static_instance-sid4-0">
+            <value>Ya, tersimpan di SID</value>
+          </text>
+          <text id="static_instance-distrik-1">
+            <value>AKAT</value>
+          </text>
+          <text id="static_instance-jwb-0">
+            <value>Ya</value>
+          </text>
+          <text id="static_instance-aktelahir-1">
+            <value>1-5 hari kerja</value>
+          </text>
+          <text id="static_instance-jwb-2">
+            <value>Tidak Tahu</value>
+          </text>
+          <text id="static_instance-jwb-1">
+            <value>Tidak</value>
+          </text>
+          <text id="static_instance-apk-10">
+            <value>Lainnya</value>
+          </text>
+          <text id="static_instance-kampung-118">
+            <value>TOBOU</value>
+          </text>
+          <text id="static_instance-kampung-119">
+            <value>SABRI</value>
+          </text>
+          <text id="static_instance-kampung-114">
+            <value>WUNABUNGGU</value>
+          </text>
+          <text id="static_instance-kampung-115">
+            <value>RANSIKI</value>
+          </text>
+          <text id="static_instance-kampung-116">
+            <value>NUHUWEI</value>
+          </text>
+          <text id="static_instance-kampung-117">
+            <value>YAMBOI</value>
+          </text>
+          <text id="static_instance-kampung-110">
+            <value>KEWAGI</value>
+          </text>
+          <text id="static_instance-kampung-111">
+            <value>NOMBOME</value>
+          </text>
+          <text id="static_instance-kampung-112">
+            <value>NUMBOKAWI</value>
+          </text>
+          <text id="static_instance-kampung-113">
+            <value>MBU</value>
+          </text>
+          <text id="static_instance-kampung-63">
+            <value>AYAPO</value>
+          </text>
+          <text id="static_instance-kampung-62">
+            <value>PUAI</value>
+          </text>
+          <text id="static_instance-kampung-61">
+            <value>NOLOKLA</value>
+          </text>
+          <text id="static_instance-kampung-60">
+            <value>MARIBU</value>
+          </text>
+          <text id="static_instance-kampung-67">
+            <value>YOKIWA</value>
+          </text>
+          <text id="static_instance-kampung-66">
+            <value>NENDALI</value>
+          </text>
+          <text id="static_instance-kampung-65">
+            <value>ASEI KECIL</value>
+          </text>
+          <text id="static_instance-kampung-64">
+            <value>ASEI BESAR</value>
+          </text>
+          <text id="static_instance-sid-0">
+            <value>Ya, online</value>
+          </text>
+          <text id="static_instance-kampung-69">
+            <value>AMBORA</value>
+          </text>
+          <text id="static_instance-kampung-68">
+            <value>DEMTA</value>
+          </text>
+          <text id="static_instance-datasid-0">
+            <value>Ya, dalam SID</value>
+          </text>
+          <text id="static_instance-ada-1">
+            <value>Tidak</value>
+          </text>
+          <text id="static_instance-ada-0">
+            <value>Ya</value>
+          </text>
+          <text id="static_instance-distrik-20">
+            <value>MAKBON</value>
+          </text>
+          <text id="static_instance-ada-2">
+            <value>Tidak Tahu</value>
+          </text>
+          <text id="static_instance-aktelahir-2">
+            <value>6-10 hari kerja</value>
+          </text>
+          <text id="static_instance-biayaakte-1">
+            <value>Biaya kurang dari Rp. 50,000</value>
+          </text>
+          <text id="static_instance-ubah-4">
+            <value>Tidak pernah melakukan perubahan APBDes 2020</value>
+          </text>
+          <text id="static_instance-gender-1">
+            <value>Perempuan</value>
+          </text>
+          <text id="static_instance-ubah-2">
+            <value>Tiga Kali</value>
+          </text>
+          <text id="static_instance-ubah-3">
+            <value>Lebih dari tiga kali</value>
+          </text>
+          <text id="static_instance-ubah-0">
+            <value>Satu Kali</value>
+          </text>
+          <text id="static_instance-ubah-1">
+            <value>Dua Kali</value>
+          </text>
+          <text id="static_instance-aktelahir-3">
+            <value>11-30 hari kerja</value>
+          </text>
+          <text id="static_instance-kampung-98">
+            <value>WERUA</value>
+          </text>
+          <text id="static_instance-kampung-99">
+            <value>ORAY</value>
+          </text>
+          <text id="static_instance-kampung-96">
+            <value>JARATI</value>
+          </text>
+          <text id="static_instance-kampung-97">
+            <value>SARA</value>
+          </text>
+          <text id="static_instance-kampung-94">
+            <value>COA</value>
+          </text>
+          <text id="static_instance-kampung-95">
+            <value>SARIA</value>
+          </text>
+          <text id="static_instance-kampung-92">
+            <value>MAI MAI</value>
+          </text>
+          <text id="static_instance-kampung-93">
+            <value>KAMAKA</value>
+          </text>
+          <text id="static_instance-kampung-90">
+            <value>FOROMA JAYA</value>
+          </text>
+          <text id="static_instance-kampung-91">
+            <value>MURANO</value>
+          </text>
+          <text id="static_instance-kampung-121">
+            <value>ABRESO</value>
+          </text>
+          <text id="static_instance-kampung-120">
+            <value>BAMAHA</value>
+          </text>
+          <text id="static_instance-kampung-123">
+            <value>KOBREY</value>
+          </text>
+          <text id="static_instance-kampung-122">
+            <value>HAMAWI</value>
+          </text>
+          <text id="static_instance-kampung-125">
+            <value>HAMOR</value>
+          </text>
+          <text id="static_instance-kampung-124">
+            <value>WAMCEI</value>
+          </text>
+          <text id="static_instance-kampung-127">
+            <value>MAMBREMA</value>
+          </text>
+          <text id="static_instance-kampung-126">
+            <value>SUSMOROF</value>
+          </text>
+          <text id="static_instance-kampung-129">
+            <value>SIDOMULYO</value>
+          </text>
+          <text id="static_instance-kampung-128">
+            <value>ORANSBARI</value>
+          </text>
+          <text id="static_instance-lain-2">
+            <value>Lainnya</value>
+          </text>
+          <text id="static_instance-distrik-6">
+            <value>PARIWARI</value>
+          </text>
+          <text id="static_instance-kampung-16">
+            <value>MENEPSIMNI</value>
+          </text>
+          <text id="static_instance-kampung-17">
+            <value>YUNI</value>
+          </text>
+          <text id="static_instance-kampung-14">
+            <value>BUETKWAR</value>
+          </text>
+          <text id="static_instance-kampung-15">
+            <value>BECO</value>
+          </text>
+          <text id="static_instance-kampung-12">
+            <value>BAYIW PINAM</value>
+          </text>
+          <text id="static_instance-kampung-13">
+            <value>WAW</value>
+          </text>
+          <text id="static_instance-kampung-10">
+            <value>SUWRU</value>
+          </text>
+          <text id="static_instance-kampung-11">
+            <value>BOU</value>
+          </text>
+          <text id="static_instance-biayaakte-0">
+            <value>Tidak ada biaya</value>
+          </text>
+          <text id="static_instance-sid4-2">
+            <value>Tidak</value>
+          </text>
+          <text id="static_instance-biayaakte-2">
+            <value>Biaya Rp. 51,000 - 100,000</value>
+          </text>
+          <text id="static_instance-biayaakte-3">
+            <value>Biaya Rp.101,000 - 200,000</value>
+          </text>
+          <text id="static_instance-biayaakte-4">
+            <value>Biaya lebih dari Rp. 200,000</value>
+          </text>
+          <text id="static_instance-kampung-18">
+            <value>AYAM</value>
+          </text>
+          <text id="static_instance-kampung-19">
+            <value>CUMNEW</value>
+          </text>
+          <text id="static_instance-distrik-19">
+            <value>MOORA</value>
+          </text>
+          <text id="static_instance-jwb-3">
+            <value>Lainnya</value>
+          </text>
+          <text id="static_instance-pash-0">
+            <value>Pemerintah Desa</value>
+          </text>
+          <text id="static_instance-pash-1">
+            <value>Petugas Registrasi Desa (atau sejenis sesuai konteks lokal) - Laki-laki</value>
+          </text>
+          <text id="static_instance-pash-2">
+            <value>Petugas Registrasi Desa (atau sejenis sesuai konteks lokal) - Perempuan</value>
+          </text>
+          <text id="static_instance-pash-3">
+            <value>Kader desa</value>
+          </text>
+          <text id="static_instance-pash-4">
+            <value>Lainnya</value>
+          </text>
+          <text id="static_instance-distrik-11">
+            <value>KAIMANA</value>
+          </text>
+          <text id="static_instance-aktelahir-4">
+            <value>Lebih dari 30 hari kerja</value>
+          </text>
+          <text id="static_instance-distrik-10">
+            <value>KAMBRAU</value>
+          </text>
+          <text id="static_instance-kampung-89">
+            <value>SISIR</value>
+          </text>
+          <text id="static_instance-kampung-88">
+            <value>TANGGAROMI</value>
+          </text>
+          <text id="static_instance-kampung-85">
+            <value>NAMATOTA</value>
+          </text>
+          <text id="static_instance-likert-4">
+            <value>Sangat Bermanfaat</value>
+          </text>
+          <text id="static_instance-kampung-87">
+            <value>TRIKORA</value>
+          </text>
+          <text id="static_instance-kampung-86">
+            <value>LOBO</value>
+          </text>
+          <text id="static_instance-likert-1">
+            <value>Tidak Bermanfaat</value>
+          </text>
+          <text id="static_instance-likert-0">
+            <value>Fasilitasi tidak dilakukan untuk hal ini</value>
+          </text>
+          <text id="static_instance-likert-3">
+            <value>Bermanfaat</value>
+          </text>
+          <text id="static_instance-likert-2">
+            <value>Kurang Bermanfaat</value>
+          </text>
+          <text id="static_instance-kampung-136">
+            <value>MARGOMULYO</value>
+          </text>
+          <text id="static_instance-kampung-137">
+            <value>WARKWANDI</value>
+          </text>
+          <text id="static_instance-kampung-134">
+            <value>MASABUI</value>
+          </text>
+          <text id="static_instance-kampung-135">
+            <value>WARBIADI</value>
+          </text>
+          <text id="static_instance-kampung-132">
+            <value>MUARI</value>
+          </text>
+          <text id="static_instance-kampung-133">
+            <value>WATARIRI</value>
+          </text>
+          <text id="static_instance-kampung-130">
+            <value>WAROSER</value>
+          </text>
+          <text id="static_instance-kampung-131">
+            <value>MARGO RUKUN</value>
+          </text>
+          <text id="static_instance-fas-3">
+            <value>Tidak dilakukan pertemuan tsb</value>
+          </text>
+          <text id="static_instance-fas-2">
+            <value>Ya, Difasilitas BPD dan Aparat Desa</value>
+          </text>
+          <text id="static_instance-fas-1">
+            <value>Ya, Difasilitasi Aparat Desa</value>
+          </text>
+          <text id="static_instance-fas-0">
+            <value>Ya, difasilitasi BPD</value>
+          </text>
+          <text id="static_instance-kampung-138">
+            <value>SINDANG JAYA</value>
+          </text>
+          <text id="static_instance-kampung-139">
+            <value>WANDOKI</value>
+          </text>
+          <text id="static_instance-provinsi-0">
+            <value>PAPUA</value>
+          </text>
+          <text id="static_instance-provinsi-1">
+            <value>PAPUA BARAT</value>
+          </text>
+          <text id="static_instance-kampung-143">
+            <value>NIJ</value>
+          </text>
+          <text id="static_instance-kampung-142">
+            <value>DEMBEK</value>
+          </text>
+          <text id="static_instance-kampung-141">
+            <value>MASABUI II</value>
+          </text>
+          <text id="static_instance-kampung-140">
+            <value>AKEJU</value>
+          </text>
+          <text id="static_instance-kampung-147">
+            <value>DEMINI</value>
+          </text>
+          <text id="static_instance-kampung-146">
+            <value>WAREN</value>
+          </text>
+          <text id="static_instance-kampung-145">
+            <value>GAYA BARU</value>
+          </text>
+          <text id="static_instance-kampung-144">
+            <value>SIWI</value>
+          </text>
+          <text id="static_instance-distrik-13">
+            <value>MELAGI</value>
+          </text>
+          <text id="static_instance-distrik-12">
+            <value>YIGINUA</value>
+          </text>
+          <text id="static_instance-kampung-149">
+            <value>TOPO</value>
+          </text>
+          <text id="static_instance-kampung-148">
+            <value>YEKWANDI</value>
+          </text>
+          <text id="static_instance-distrik-17">
+            <value>UWAPA</value>
+          </text>
+          <text id="static_instance-distrik-16">
+            <value>MOMI WAREN</value>
+          </text>
+          <text id="static_instance-distrik-15">
+            <value>ORANSBARI</value>
+          </text>
+          <text id="static_instance-distrik-14">
+            <value>RANSIKI</value>
+          </text>
+          <text id="static_instance-sidman-3">
+            <value>Bermanfaat</value>
+          </text>
+          <text id="static_instance-sid3-0">
+            <value>Selalu (100%)</value>
+          </text>
+          <text id="static_instance-lain-1">
+            <value>Tidak</value>
+          </text>
+          <text id="static_instance-kampung-38">
+            <value>WERBA</value>
+          </text>
+          <text id="static_instance-kampung-39">
+            <value>PURWASAK</value>
+          </text>
+          <text id="static_instance-distrik-21">
+            <value>SEGET</value>
+          </text>
+          <text id="static_instance-distrik-9">
+            <value>DEMTA</value>
+          </text>
+          <text id="static_instance-kampung-84">
+            <value>MARSI</value>
+          </text>
+          <text id="static_instance-kampung-30">
+            <value>BUTIPTIRI</value>
+          </text>
+          <text id="static_instance-kampung-31">
+            <value>ASIKI</value>
+          </text>
+          <text id="static_instance-kampung-32">
+            <value>KAPOGU</value>
+          </text>
+          <text id="static_instance-kampung-33">
+            <value>MIRI</value>
+          </text>
+          <text id="static_instance-kampung-34">
+            <value>KOMBUT</value>
+          </text>
+          <text id="static_instance-kampung-35">
+            <value>MOUKBIRAN</value>
+          </text>
+          <text id="static_instance-kampung-36">
+            <value>KAWANGTET</value>
+          </text>
+          <text id="static_instance-kampung-37">
+            <value>AMUAN</value>
+          </text>
+          <text id="static_instance-kampung-150">
+            <value>TOPO JAYA</value>
+          </text>
+          <text id="static_instance-kampung-151">
+            <value>URUMUSU</value>
+          </text>
+          <text id="static_instance-kampung-152">
+            <value>MARGA JAYA</value>
+          </text>
+          <text id="static_instance-kampung-153">
+            <value>ARGO MULYO</value>
+          </text>
+          <text id="static_instance-kampung-154">
+            <value>GAMEI JAYA</value>
+          </text>
+          <text id="static_instance-kampung-155">
+            <value>SAMABUSA</value>
+          </text>
+          <text id="static_instance-kampung-156">
+            <value>WAHARIA</value>
+          </text>
+          <text id="static_instance-kampung-157">
+            <value>KIMI</value>
+          </text>
+          <text id="static_instance-kampung-158">
+            <value>LANI</value>
+          </text>
+          <text id="static_instance-kampung-81">
+            <value>KROOY</value>
+          </text>
+          <text id="static_instance-kampung-80">
+            <value>KOOY</value>
+          </text>
+          <text id="static_instance-distrik-8">
+            <value>SENTANI TIMUR</value>
+          </text>
+          <text id="static_instance-kampung-83">
+            <value>KAIMANA KOTA</value>
+          </text>
+          <text id="static_instance-sid-1">
+            <value>Ya, offline</value>
+          </text>
+          <text id="static_instance-nil-0">
+            <value>Ya, dan aktif</value>
+          </text>
+          <text id="static_instance-kampung-82">
+            <value>LUMIRA</value>
+          </text>
+          <text id="static_instance-distrik-18">
+            <value>TELUK KIMI</value>
+          </text>
+          <text id="static_instance-nil-1">
+            <value>Ya, namun tidak aktif</value>
+          </text>
+          <text id="static_instance-distrik-3">
+            <value>JAIR</value>
+          </text>
+          <text id="static_instance-kabupaten-8">
+            <value>KAIMANA</value>
+          </text>
+          <text id="static_instance-distrik-2">
+            <value>MANDOBO</value>
+          </text>
+          <text id="static_instance-kabupaten-4">
+            <value>LANNY JAYA</value>
+          </text>
+          <text id="static_instance-kabupaten-5">
+            <value>SORONG</value>
+          </text>
+          <text id="static_instance-kabupaten-6">
+            <value>MANOKWARI SELATAN</value>
+          </text>
+          <text id="static_instance-kabupaten-7">
+            <value>FAKFAK</value>
+          </text>
+          <text id="static_instance-kabupaten-0">
+            <value>ASMAT</value>
+          </text>
+          <text id="static_instance-kabupaten-1">
+            <value>NABIRE</value>
+          </text>
+          <text id="static_instance-kabupaten-2">
+            <value>BOVEN DIGOEL</value>
+          </text>
+          <text id="static_instance-kabupaten-3">
+            <value>JAYAPURA</value>
+          </text>
+          <text id="static_instance-sidman-2">
+            <value>Kurang Bermanfaat</value>
+          </text>
+          <text id="static_instance-sid2-1">
+            <value>Sebagian online, sebagian paper-based (offline)</value>
+          </text>
+          <text id="static_instance-admin-0">
+            <value>Ya, Fasilitator PASH tingkat desa yang ditunjuk khusus</value>
+          </text>
+          <text id="static_instance-kampung-29">
+            <value>ANGGAI</value>
+          </text>
+          <text id="static_instance-kampung-28">
+            <value>GETENTIRI</value>
+          </text>
+          <text id="static_instance-kampung-27">
+            <value>MAWAN</value>
+          </text>
+          <text id="static_instance-kampung-26">
+            <value>MARIAM</value>
+          </text>
+          <text id="static_instance-kampung-25">
+            <value>PERSATUAN</value>
+          </text>
+          <text id="static_instance-kampung-24">
+            <value>SOKANGGO</value>
+          </text>
+          <text id="static_instance-kampung-23">
+            <value>AMPERA</value>
+          </text>
+          <text id="static_instance-kampung-22">
+            <value>SIMINI</value>
+          </text>
+          <text id="static_instance-kampung-21">
+            <value>FAKAN</value>
+          </text>
+          <text id="static_instance-kampung-20">
+            <value>JEWES</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <survey_kampung_122020 id="sur_kam" version="2020712">
+          <start/>
+          <select_appearance_note/>
+          <A0>
+            <nama_surveyor/>
+            <nama_responden/>
+            <tanggal_survey/>
+            <metode_pengumpul_data/>
+            <metode_lainnya/>
+            <provinsi/>
+            <kabupaten/>
+            <distrik/>
+            <kampung/>
+          </A0>
+          <A>
+            <jml_pddk_desa/>
+            <wakil_perem_pem_desa/>
+            <aparat_laki-laki/>
+            <aparat_perempuan/>
+            <BPD_laki-laki/>
+            <BPD_perempuan/>
+            <bumdes/>
+            <A1>
+              <bmd_usaha_sosial/>
+              <bmd_penyewaan/>
+              <bmd_usaha_perantara/>
+              <bmd_produksi/>
+              <bmd_keuangan/>
+              <bmd_usaha_induk/>
+            </A1>
+          </A>
+          <B>
+            <pend_kecamatan/>
+            <pe_per_pengg/>
+            <pe_BLT_DD/>
+            <pe_koor_covid/>
+            <pe_adminduk/>
+            <pe_sid/>
+            <pe_akuntabilitas_sosial/>
+            <pembelajaran_mandiri/>
+            <topik/>
+          </B>
+          <C>
+            <serahkan_apbd_asli/>
+            <total_abpk_asli_2020/>
+            <perubahan_abpk/>
+            <alasan_ubah/>
+            <C1>
+              <judul/>
+              <kesehatan/>
+              <pendidikan/>
+              <adminduk/>
+            </C1>
+          </C>
+          <D>
+            <ada_sid/>
+            <D1>
+              <judul_5/>
+              <sid_koneksi/>
+              <sid_anggaran/>
+              <sid_kapasitas/>
+              <sid_offline/>
+              <sid_lainnya/>
+              <alasan_lainnya/>
+            </D1>
+            <model_sid/>
+            <alasan_lainnya_model/>
+            <operator_terlatih/>
+            <dana_sid/>
+            <D2>
+              <judul_11/>
+              <peny_disabilitas/>
+              <aps/>
+              <jumlah_siswa_paud/>
+              <dok_adminduk/>
+              <masyarakat_miskin/>
+            </D2>
+            <sid_update/>
+            <D3>
+              <judul_1/>
+              <sid_peren/>
+              <sid_blt_dd/>
+              <sid_covid19/>
+              <sid_adminduk/>
+              <sid_landasan/>
+              <sid_podes/>
+            </D3>
+          </D>
+          <H>
+            <sdm_terlatih/>
+            <rt_update/>
+            <kel_pen_blt/>
+            <lay_adminduk/>
+            <H1>
+              <judul_12/>
+              <akta_lahir/>
+              <kartu_kk/>
+              <ket_domisili/>
+              <peng_nik/>
+            </H1>
+            <jumlah_akta_lahir/>
+            <jum_anak_dibawah_18/>
+            <jum_kk_terbit/>
+            <jumlah_ktp_terbit/>
+            <rata_urus_akte_lahir/>
+            <biaya_urus_akte/>
+            <lay_disabilitas/>
+            <jum_disabilitas_dibantu/>
+          </H>
+          <F>
+            <bpd_dilatih/>
+            <F1>
+              <judul_13/>
+              <posko_bpd/>
+              <klik_pekka/>
+              <musdes/>
+              <kel_perempuan/>
+              <pakai_WA/>
+              <kotak_aspirasi/>
+              <aduan_lainnya/>
+              <aduan_lainnya_sebutkan/>
+            </F1>
+            <trans_apbk/>
+            <laksanakan_musdes/>
+            <F2>
+              <judul_14/>
+              <musren_desa/>
+              <fas_musdes/>
+              <mus_kel_rentan/>
+            </F2>
+          </F>
+          <catatan_lain/>
+          <select_appearance_note_12/>
+          <kader_repeat_test jr:template="">
+            <kader_nama/>
+            <kader_umur/>
+            <kader_gender/>
+            <kader_SK/>
+            <kader_Insentif/>
+            <kader_latih_pendataan/>
+            <kader_latih_penginputan/>
+          </kader_repeat_test>
+          <meta>
+            <instanceID/>
+          </meta>
+        </survey_kampung_122020>
+      </instance>
+      <instance id="likert">
+        <root>
+          <item>
+            <itextId>static_instance-likert-0</itextId>
+            <name>Fasilitasi tidak dilakukan untuk hal ini</name>
+          </item>
+          <item>
+            <itextId>static_instance-likert-1</itextId>
+            <name>Tidak Bermanfaat</name>
+          </item>
+          <item>
+            <itextId>static_instance-likert-2</itextId>
+            <name>Kurang Bermanfaat</name>
+          </item>
+          <item>
+            <itextId>static_instance-likert-3</itextId>
+            <name>Bermanfaat</name>
+          </item>
+          <item>
+            <itextId>static_instance-likert-4</itextId>
+            <name>Sangat Bermanfaat</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="sp">
+        <root>
+          <item>
+            <itextId>static_instance-sp-0</itextId>
+            <name>Ya</name>
+          </item>
+          <item>
+            <itextId>static_instance-sp-1</itextId>
+            <name>Tidak</name>
+          </item>
+          <item>
+            <itextId>static_instance-sp-2</itextId>
+            <name>Tidak Dilakukan</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="kabupaten">
+        <root>
+          <item>
+            <itextId>static_instance-kabupaten-0</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>ASMAT</name>
+          </item>
+          <item>
+            <itextId>static_instance-kabupaten-1</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>NABIRE</name>
+          </item>
+          <item>
+            <itextId>static_instance-kabupaten-2</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>BOVEN DIGOEL</name>
+          </item>
+          <item>
+            <itextId>static_instance-kabupaten-3</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>JAYAPURA</name>
+          </item>
+          <item>
+            <itextId>static_instance-kabupaten-4</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>LANNY JAYA</name>
+          </item>
+          <item>
+            <itextId>static_instance-kabupaten-5</itextId>
+            <provinsi>PAPUA BARAT</provinsi>
+            <name>SORONG</name>
+          </item>
+          <item>
+            <itextId>static_instance-kabupaten-6</itextId>
+            <provinsi>PAPUA BARAT</provinsi>
+            <name>MANOKWARI SELATAN</name>
+          </item>
+          <item>
+            <itextId>static_instance-kabupaten-7</itextId>
+            <provinsi>PAPUA BARAT</provinsi>
+            <name>FAKFAK</name>
+          </item>
+          <item>
+            <itextId>static_instance-kabupaten-8</itextId>
+            <provinsi>PAPUA BARAT</provinsi>
+            <name>KAIMANA</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="pash">
+        <root>
+          <item>
+            <itextId>static_instance-pash-0</itextId>
+            <name>Pemerintah_Desa</name>
+          </item>
+          <item>
+            <itextId>static_instance-pash-1</itextId>
+            <name>Petugas_Registrasi_Desa_Laki-laki</name>
+          </item>
+          <item>
+            <itextId>static_instance-pash-2</itextId>
+            <name>Petugas_Registrasi_Desa_Perempuan</name>
+          </item>
+          <item>
+            <itextId>static_instance-pash-3</itextId>
+            <name>Kader_desa</name>
+          </item>
+          <item>
+            <itextId>static_instance-pash-4</itextId>
+            <name>Lainnya</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="apk">
+        <root>
+          <item>
+            <itextId>static_instance-apk-0</itextId>
+            <name>PRODESKEL_(Profil_Desa_dan_Kelurahan)</name>
+          </item>
+          <item>
+            <itextId>static_instance-apk-1</itextId>
+            <name>SIDEKA_(Sistem_Informasi_Desa_dan_Kawasan)</name>
+          </item>
+          <item>
+            <itextId>static_instance-apk-2</itextId>
+            <name>OPENSID</name>
+          </item>
+          <item>
+            <itextId>static_instance-apk-3</itextId>
+            <name>CRI_(Combine_Resource_Institution)</name>
+          </item>
+          <item>
+            <itextId>static_instance-apk-4</itextId>
+            <name>MITRA_DESA</name>
+          </item>
+          <item>
+            <itextId>static_instance-apk-5</itextId>
+            <name>SIGAP_(SIG_Kominsa_Aceh)</name>
+          </item>
+          <item>
+            <itextId>static_instance-apk-6</itextId>
+            <name>SAID_Bondowoso</name>
+          </item>
+          <item>
+            <itextId>static_instance-apk-7</itextId>
+            <name>SIADEK</name>
+          </item>
+          <item>
+            <itextId>static_instance-apk-8</itextId>
+            <name>SAIK/SAID_Papua</name>
+          </item>
+          <item>
+            <itextId>static_instance-apk-9</itextId>
+            <name>Manual_menggunakan_buku_registrasi_kependudukan</name>
+          </item>
+          <item>
+            <itextId>static_instance-apk-10</itextId>
+            <name>Lainnya</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="ubah">
+        <root>
+          <item>
+            <itextId>static_instance-ubah-0</itextId>
+            <name>Satu Kali</name>
+          </item>
+          <item>
+            <itextId>static_instance-ubah-1</itextId>
+            <name>Dua Kali</name>
+          </item>
+          <item>
+            <itextId>static_instance-ubah-2</itextId>
+            <name>Tiga Kali</name>
+          </item>
+          <item>
+            <itextId>static_instance-ubah-3</itextId>
+            <name>Lebih dari tiga kali</name>
+          </item>
+          <item>
+            <itextId>static_instance-ubah-4</itextId>
+            <name>Tidak pernah melakukan perubahan APBDes 2020</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="sidupdate">
+        <root>
+          <item>
+            <itextId>static_instance-sidupdate-0</itextId>
+            <name>Setiap hari</name>
+          </item>
+          <item>
+            <itextId>static_instance-sidupdate-1</itextId>
+            <name>Setiap minggu</name>
+          </item>
+          <item>
+            <itextId>static_instance-sidupdate-2</itextId>
+            <name>Setiap bulan</name>
+          </item>
+          <item>
+            <itextId>static_instance-sidupdate-3</itextId>
+            <name>Setiap 2-6 bulan</name>
+          </item>
+          <item>
+            <itextId>static_instance-sidupdate-4</itextId>
+            <name>Setiap 7-12 bulan</name>
+          </item>
+          <item>
+            <itextId>static_instance-sidupdate-5</itextId>
+            <name>Jarang atau tidak pernah</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="kampung">
+        <root>
+          <item>
+            <itextId>static_instance-kampung-0</itextId>
+            <name>BIS AGATS</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AGATS</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-1</itextId>
+            <name>UWUS</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AGATS</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-2</itextId>
+            <name>YOMOTH</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AGATS</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-3</itextId>
+            <name>ASUWETSY</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AGATS</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-4</itextId>
+            <name>BISMAN</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AGATS</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-5</itextId>
+            <name>PER</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AGATS</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-6</itextId>
+            <name>BRITEN</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AGATS</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-7</itextId>
+            <name>MBAIT</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AGATS</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-8</itextId>
+            <name>SAW</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AGATS</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-9</itextId>
+            <name>KAYE</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AGATS</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-10</itextId>
+            <name>SUWRU</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AGATS</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-11</itextId>
+            <name>BOU</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AGATS</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-12</itextId>
+            <name>BAYIW PINAM</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AKAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-13</itextId>
+            <name>WAW</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AKAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-14</itextId>
+            <name>BUETKWAR</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AKAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-15</itextId>
+            <name>BECO</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AKAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-16</itextId>
+            <name>MENEPSIMNI</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AKAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-17</itextId>
+            <name>YUNI</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AKAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-18</itextId>
+            <name>AYAM</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AKAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-19</itextId>
+            <name>CUMNEW</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AKAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-20</itextId>
+            <name>JEWES</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AKAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-21</itextId>
+            <name>FAKAN</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AKAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-22</itextId>
+            <name>SIMINI</name>
+            <kabupaten>ASMAT</kabupaten>
+            <distrik>AKAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-23</itextId>
+            <name>AMPERA</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>MANDOBO</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-24</itextId>
+            <name>SOKANGGO</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>MANDOBO</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-25</itextId>
+            <name>PERSATUAN</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>MANDOBO</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-26</itextId>
+            <name>MARIAM</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>MANDOBO</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-27</itextId>
+            <name>MAWAN</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>MANDOBO</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-28</itextId>
+            <name>GETENTIRI</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>JAIR</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-29</itextId>
+            <name>ANGGAI</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>JAIR</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-30</itextId>
+            <name>BUTIPTIRI</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>JAIR</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-31</itextId>
+            <name>ASIKI</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>JAIR</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-32</itextId>
+            <name>KAPOGU</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>JAIR</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-33</itextId>
+            <name>MIRI</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>JAIR</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-34</itextId>
+            <name>KOMBUT</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>KOMBUT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-35</itextId>
+            <name>MOUKBIRAN</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>KOMBUT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-36</itextId>
+            <name>KAWANGTET</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>KOMBUT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-37</itextId>
+            <name>AMUAN</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+            <distrik>KOMBUT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-38</itextId>
+            <name>WERBA</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>FAK-FAK BARAT</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-39</itextId>
+            <name>PURWASAK</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>FAK-FAK BARAT</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-40</itextId>
+            <name>WURKENDIK</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>FAK-FAK BARAT</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-41</itextId>
+            <name>KWUHKENDAK</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>FAK-FAK BARAT</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-42</itextId>
+            <name>PURWAHAB TONGGO</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>FAK-FAK BARAT</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-43</itextId>
+            <name>PAHGER NKINDIK</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>FAK-FAK BARAT</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-44</itextId>
+            <name>WERBA UTARA</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>FAK-FAK BARAT</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-45</itextId>
+            <name>PORUM</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>FAK-FAK BARAT</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-46</itextId>
+            <name>KIAT</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>FAK-FAK BARAT</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-47</itextId>
+            <name>WAGOM</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>PARIWARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-48</itextId>
+            <name>WAGOM UTARA</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>PARIWARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-49</itextId>
+            <name>DULANPOKPOK</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>PARIWARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-50</itextId>
+            <name>TANAMA</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>PARIWARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-51</itextId>
+            <name>KAPAURTUTIN</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>PARIWARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-52</itextId>
+            <name>SEKBAN</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>PARIWARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-53</itextId>
+            <name>TOREA</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>PARIWARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-54</itextId>
+            <name>SEKRU</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>PARIWARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-55</itextId>
+            <name>SUKURU TUARE</name>
+            <kabupaten>FAKFAK</kabupaten>
+            <distrik>PARIWARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-56</itextId>
+            <name>WAIBRON</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>SENTANI BARAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-57</itextId>
+            <name>SABRON SARI</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>SENTANI BARAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-58</itextId>
+            <name>SABRO YARU</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>SENTANI BARAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-59</itextId>
+            <name>DOSAY</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>SENTANI BARAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-60</itextId>
+            <name>MARIBU</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>SENTANI BARAT</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-61</itextId>
+            <name>NOLOKLA</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>SENTANI TIMUR</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-62</itextId>
+            <name>PUAI</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>SENTANI TIMUR</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-63</itextId>
+            <name>AYAPO</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>SENTANI TIMUR</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-64</itextId>
+            <name>ASEI BESAR</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>SENTANI TIMUR</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-65</itextId>
+            <name>ASEI KECIL</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>SENTANI TIMUR</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-66</itextId>
+            <name>NENDALI</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>SENTANI TIMUR</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-67</itextId>
+            <name>YOKIWA</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>SENTANI TIMUR</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-68</itextId>
+            <name>DEMTA</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>DEMTA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-69</itextId>
+            <name>AMBORA</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>DEMTA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-70</itextId>
+            <name>YOUGAPSA</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>DEMTA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-71</itextId>
+            <name>MURIS KECIL</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>DEMTA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-72</itextId>
+            <name>YAKORE</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>DEMTA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-73</itextId>
+            <name>KAMDERA</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>DEMTA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-74</itextId>
+            <name>MUAIF</name>
+            <kabupaten>JAYAPURA</kabupaten>
+            <distrik>DEMTA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-75</itextId>
+            <name>RAUNA</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAMBRAU</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-76</itextId>
+            <name>WERAFUTA</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAMBRAU</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-77</itextId>
+            <name>UBIA SERMUKU</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAMBRAU</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-78</itextId>
+            <name>WAHO</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAMBRAU</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-79</itextId>
+            <name>WAMESA</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAMBRAU</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-80</itextId>
+            <name>KOOY</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAMBRAU</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-81</itextId>
+            <name>KROOY</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-82</itextId>
+            <name>LUMIRA</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-83</itextId>
+            <name>KAIMANA KOTA</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-84</itextId>
+            <name>MARSI</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-85</itextId>
+            <name>NAMATOTA</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-86</itextId>
+            <name>LOBO</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-87</itextId>
+            <name>TRIKORA</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-88</itextId>
+            <name>TANGGAROMI</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-89</itextId>
+            <name>SISIR</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-90</itextId>
+            <name>FOROMA JAYA</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-91</itextId>
+            <name>MURANO</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-92</itextId>
+            <name>MAI MAI</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-93</itextId>
+            <name>KAMAKA</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-94</itextId>
+            <name>COA</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-95</itextId>
+            <name>SARIA</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-96</itextId>
+            <name>JARATI</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-97</itextId>
+            <name>SARA</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-98</itextId>
+            <name>WERUA</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-99</itextId>
+            <name>ORAY</name>
+            <kabupaten>KAIMANA</kabupaten>
+            <distrik>KAIMANA</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-100</itextId>
+            <name>TEPOGI</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>YIGINUA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-101</itextId>
+            <name>NINABUA</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>YIGINUA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-102</itextId>
+            <name>GOLIKME</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>YIGINUA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-103</itextId>
+            <name>NINENGWA</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>YIGINUA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-104</itextId>
+            <name>WERI</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>YIGINUA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-105</itextId>
+            <name>GUMAGAME</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>YIGINUA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-106</itextId>
+            <name>ABUA</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>YIGINUA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-107</itextId>
+            <name>WABIRAGI</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>MELAGI</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-108</itextId>
+            <name>YIGEMILI</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>MELAGI</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-109</itextId>
+            <name>GILO</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>MELAGI</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-110</itextId>
+            <name>KEWAGI</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>MELAGI</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-111</itextId>
+            <name>NOMBOME</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>MELAGI</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-112</itextId>
+            <name>NUMBOKAWI</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>MELAGI</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-113</itextId>
+            <name>MBU</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>MELAGI</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-114</itextId>
+            <name>WUNABUNGGU</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+            <distrik>MELAGI</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-115</itextId>
+            <name>RANSIKI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>RANSIKI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-116</itextId>
+            <name>NUHUWEI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>RANSIKI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-117</itextId>
+            <name>YAMBOI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>RANSIKI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-118</itextId>
+            <name>TOBOU</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>RANSIKI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-119</itextId>
+            <name>SABRI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>RANSIKI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-120</itextId>
+            <name>BAMAHA</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>RANSIKI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-121</itextId>
+            <name>ABRESO</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>RANSIKI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-122</itextId>
+            <name>HAMAWI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>RANSIKI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-123</itextId>
+            <name>KOBREY</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>RANSIKI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-124</itextId>
+            <name>WAMCEI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>RANSIKI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-125</itextId>
+            <name>HAMOR</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>RANSIKI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-126</itextId>
+            <name>SUSMOROF</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>RANSIKI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-127</itextId>
+            <name>MAMBREMA</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>RANSIKI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-128</itextId>
+            <name>ORANSBARI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>ORANSBARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-129</itextId>
+            <name>SIDOMULYO</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>ORANSBARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-130</itextId>
+            <name>WAROSER</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>ORANSBARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-131</itextId>
+            <name>MARGO RUKUN</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>ORANSBARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-132</itextId>
+            <name>MUARI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>ORANSBARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-133</itextId>
+            <name>WATARIRI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>ORANSBARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-134</itextId>
+            <name>MASABUI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>ORANSBARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-135</itextId>
+            <name>WARBIADI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>ORANSBARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-136</itextId>
+            <name>MARGOMULYO</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>ORANSBARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-137</itextId>
+            <name>WARKWANDI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>ORANSBARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-138</itextId>
+            <name>SINDANG JAYA</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>ORANSBARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-139</itextId>
+            <name>WANDOKI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>ORANSBARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-140</itextId>
+            <name>AKEJU</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>ORANSBARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-141</itextId>
+            <name>MASABUI II</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>ORANSBARI</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-142</itextId>
+            <name>DEMBEK</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>MOMI WAREN</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-143</itextId>
+            <name>NIJ</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>MOMI WAREN</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-144</itextId>
+            <name>SIWI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>MOMI WAREN</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-145</itextId>
+            <name>GAYA BARU</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>MOMI WAREN</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-146</itextId>
+            <name>WAREN</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>MOMI WAREN</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-147</itextId>
+            <name>DEMINI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>MOMI WAREN</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-148</itextId>
+            <name>YEKWANDI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+            <distrik>MOMI WAREN</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-149</itextId>
+            <name>TOPO</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>UWAPA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-150</itextId>
+            <name>TOPO JAYA</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>UWAPA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-151</itextId>
+            <name>URUMUSU</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>UWAPA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-152</itextId>
+            <name>MARGA JAYA</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>UWAPA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-153</itextId>
+            <name>ARGO MULYO</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>UWAPA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-154</itextId>
+            <name>GAMEI JAYA</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>UWAPA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-155</itextId>
+            <name>SAMABUSA</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>TELUK KIMI</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-156</itextId>
+            <name>WAHARIA</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>TELUK KIMI</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-157</itextId>
+            <name>KIMI</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>TELUK KIMI</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-158</itextId>
+            <name>LANI</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>TELUK KIMI</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-159</itextId>
+            <name>AIR MANDIDI</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>TELUK KIMI</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-160</itextId>
+            <name>MAMBOR</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>MOORA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-161</itextId>
+            <name>HARITI</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>MOORA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-162</itextId>
+            <name>MOOR</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>MOORA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-163</itextId>
+            <name>KAMA</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>MOORA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-164</itextId>
+            <name>ARUI</name>
+            <kabupaten>NABIRE</kabupaten>
+            <distrik>MOORA</distrik>
+            <provinsi>PAPUA</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-165</itextId>
+            <name>MAKBON</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-166</itextId>
+            <name>ASBAKEN</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-167</itextId>
+            <name>MALAUMKARTA</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-168</itextId>
+            <name>BATU LUBANG</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-169</itextId>
+            <name>BATU LUBANG PANTAI</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-170</itextId>
+            <name>KWADAS</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-171</itextId>
+            <name>BAINKETE</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-172</itextId>
+            <name>TELUK DORE</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-173</itextId>
+            <name>SAWATUK</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-174</itextId>
+            <name>MALAGASIH</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-175</itextId>
+            <name>KLASIMIGIK</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-176</itextId>
+            <name>KLASIGI</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-177</itextId>
+            <name>KLAGULUS</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-178</itextId>
+            <name>SUATOLO</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-179</itextId>
+            <name>MIBI</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>MAKBON</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-180</itextId>
+            <name>SEGET</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>SEGET</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-181</itextId>
+            <name>MALABAN</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>SEGET</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-182</itextId>
+            <name>PULAU KASIM</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>SEGET</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-183</itextId>
+            <name>KASIMLE</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>SEGET</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-184</itextId>
+            <name>WEWENAGU</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>SEGET</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-185</itextId>
+            <name>KLAYAS</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>SEGET</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-186</itextId>
+            <name>WAYENKEDE</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>SEGET</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-187</itextId>
+            <name>MOBI</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>SEGET</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+          <item>
+            <itextId>static_instance-kampung-188</itextId>
+            <name>WASINGSAN</name>
+            <kabupaten>SORONG</kabupaten>
+            <distrik>SEGET</distrik>
+            <provinsi>PAPUA BARAT</provinsi>
+          </item>
+        </root>
+      </instance>
+      <instance id="sid1">
+        <root>
+          <item>
+            <itextId>static_instance-sid1-0</itextId>
+            <name>Setiap bulan</name>
+          </item>
+          <item>
+            <itextId>static_instance-sid1-1</itextId>
+            <name>Setiap 2-6 bulan</name>
+          </item>
+          <item>
+            <itextId>static_instance-sid1-2</itextId>
+            <name>Setiap 7-12 bulan</name>
+          </item>
+          <item>
+            <itextId>static_instance-sid1-3</itextId>
+            <name>Jarang sekali atau tidak pernah</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="sid2">
+        <root>
+          <item>
+            <itextId>static_instance-sid2-0</itextId>
+            <name>Ya, terhubung secara online</name>
+          </item>
+          <item>
+            <itextId>static_instance-sid2-1</itextId>
+            <name>Sebagian online, sebagian paper-based (offline)</name>
+          </item>
+          <item>
+            <itextId>static_instance-sid2-2</itextId>
+            <name>Ya, tetapi terhubung secara paper- based (offline)</name>
+          </item>
+          <item>
+            <itextId>static_instance-sid2-3</itextId>
+            <name>Tidak terhubung</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="sid3">
+        <root>
+          <item>
+            <itextId>static_instance-sid3-0</itextId>
+            <name>Selalu (100%)</name>
+          </item>
+          <item>
+            <itextId>static_instance-sid3-1</itextId>
+            <name>Sering (&gt;50%)</name>
+          </item>
+          <item>
+            <itextId>static_instance-sid3-2</itextId>
+            <name>Jarang (&lt;50%)</name>
+          </item>
+          <item>
+            <itextId>static_instance-sid3-3</itextId>
+            <name>Tidak pernah (0%)</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="sid4">
+        <root>
+          <item>
+            <itextId>static_instance-sid4-0</itextId>
+            <name>Ya, tersimpan di SID</name>
+          </item>
+          <item>
+            <itextId>static_instance-sid4-1</itextId>
+            <name>Ya, tercatat di atas kertas (paper-based)</name>
+          </item>
+          <item>
+            <itextId>static_instance-sid4-2</itextId>
+            <name>Tidak</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="sid">
+        <root>
+          <item>
+            <itextId>static_instance-sid-0</itextId>
+            <name>Ya, online</name>
+          </item>
+          <item>
+            <itextId>static_instance-sid-1</itextId>
+            <name>Ya, offline</name>
+          </item>
+          <item>
+            <itextId>static_instance-sid-2</itextId>
+            <name>Ya, Manual, dengan sistem Buku Register</name>
+          </item>
+          <item>
+            <itextId>static_instance-sid-3</itextId>
+            <name>Tidak ada</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="lain">
+        <root>
+          <item>
+            <itextId>static_instance-lain-0</itextId>
+            <name>Ya</name>
+          </item>
+          <item>
+            <itextId>static_instance-lain-1</itextId>
+            <name>Tidak</name>
+          </item>
+          <item>
+            <itextId>static_instance-lain-2</itextId>
+            <name>Lainnya</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="provinsi">
+        <root>
+          <item>
+            <itextId>static_instance-provinsi-0</itextId>
+            <name>PAPUA</name>
+          </item>
+          <item>
+            <itextId>static_instance-provinsi-1</itextId>
+            <name>PAPUA BARAT</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="sidman">
+        <root>
+          <item>
+            <itextId>static_instance-sidman-0</itextId>
+            <name>SID tidak digunakan untuk hal ini</name>
+          </item>
+          <item>
+            <itextId>static_instance-sidman-1</itextId>
+            <name>Tidak Bermanfaat</name>
+          </item>
+          <item>
+            <itextId>static_instance-sidman-2</itextId>
+            <name>Kurang Bermanfaat</name>
+          </item>
+          <item>
+            <itextId>static_instance-sidman-3</itextId>
+            <name>Bermanfaat</name>
+          </item>
+          <item>
+            <itextId>static_instance-sidman-4</itextId>
+            <name>Sangat Bermanfaat</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="nil">
+        <root>
+          <item>
+            <itextId>static_instance-nil-0</itextId>
+            <name>Ya, dan aktif</name>
+          </item>
+          <item>
+            <itextId>static_instance-nil-1</itextId>
+            <name>Ya, namun tidak aktif</name>
+          </item>
+          <item>
+            <itextId>static_instance-nil-2</itextId>
+            <name>Pernah ada, namun sekarang sudah tidak ada</name>
+          </item>
+          <item>
+            <itextId>static_instance-nil-3</itextId>
+            <name>Tidak ada</name>
+          </item>
+          <item>
+            <itextId>static_instance-nil-4</itextId>
+            <name>Lainnya</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="ya">
+        <root>
+          <item>
+            <itextId>static_instance-ya-0</itextId>
+            <name>Ya</name>
+          </item>
+          <item>
+            <itextId>static_instance-ya-1</itextId>
+            <name>Tidak</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="fas">
+        <root>
+          <item>
+            <itextId>static_instance-fas-0</itextId>
+            <name>Ya, difasilitasi BPD</name>
+          </item>
+          <item>
+            <itextId>static_instance-fas-1</itextId>
+            <name>Ya, Difasilitasi Aparat Desa</name>
+          </item>
+          <item>
+            <itextId>static_instance-fas-2</itextId>
+            <name>Ya, Difasilitas BPD dan Aparat Desa</name>
+          </item>
+          <item>
+            <itextId>static_instance-fas-3</itextId>
+            <name>Tidak dilakukan pertemuan tsb</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="ada">
+        <root>
+          <item>
+            <itextId>static_instance-ada-0</itextId>
+            <name>Ya</name>
+          </item>
+          <item>
+            <itextId>static_instance-ada-1</itextId>
+            <name>Tidak</name>
+          </item>
+          <item>
+            <itextId>static_instance-ada-2</itextId>
+            <name>Tidak Tahu</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="biayaakte">
+        <root>
+          <item>
+            <itextId>static_instance-biayaakte-0</itextId>
+            <name>Tidak ada biaya</name>
+          </item>
+          <item>
+            <itextId>static_instance-biayaakte-1</itextId>
+            <name>Biaya kurang dari Rp. 50,000</name>
+          </item>
+          <item>
+            <itextId>static_instance-biayaakte-2</itextId>
+            <name>Biaya Rp. 51,000 - 100,000</name>
+          </item>
+          <item>
+            <itextId>static_instance-biayaakte-3</itextId>
+            <name>Biaya Rp.101,000 - 200,000</name>
+          </item>
+          <item>
+            <itextId>static_instance-biayaakte-4</itextId>
+            <name>Biaya lebih dari Rp. 200,000</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="aktelahir">
+        <root>
+          <item>
+            <itextId>static_instance-aktelahir-0</itextId>
+            <name>Dalam 24 jam</name>
+          </item>
+          <item>
+            <itextId>static_instance-aktelahir-1</itextId>
+            <name>1-5 hari kerja</name>
+          </item>
+          <item>
+            <itextId>static_instance-aktelahir-2</itextId>
+            <name>6-10 hari kerja</name>
+          </item>
+          <item>
+            <itextId>static_instance-aktelahir-3</itextId>
+            <name>11-30 hari kerja</name>
+          </item>
+          <item>
+            <itextId>static_instance-aktelahir-4</itextId>
+            <name>Lebih dari 30 hari kerja</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="distrik">
+        <root>
+          <item>
+            <itextId>static_instance-distrik-0</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>AGATS</name>
+            <kabupaten>ASMAT</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-1</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>AKAT</name>
+            <kabupaten>ASMAT</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-2</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>MANDOBO</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-3</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>JAIR</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-4</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>KOMBUT</name>
+            <kabupaten>BOVEN DIGOEL</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-5</itextId>
+            <provinsi>PAPUA BARAT</provinsi>
+            <name>FAK-FAK BARAT</name>
+            <kabupaten>FAKFAK</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-6</itextId>
+            <provinsi>PAPUA BARAT</provinsi>
+            <name>PARIWARI</name>
+            <kabupaten>FAKFAK</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-7</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>SENTANI BARAT</name>
+            <kabupaten>JAYAPURA</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-8</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>SENTANI TIMUR</name>
+            <kabupaten>JAYAPURA</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-9</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>DEMTA</name>
+            <kabupaten>JAYAPURA</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-10</itextId>
+            <provinsi>PAPUA BARAT</provinsi>
+            <name>KAMBRAU</name>
+            <kabupaten>KAIMANA</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-11</itextId>
+            <provinsi>PAPUA BARAT</provinsi>
+            <name>KAIMANA</name>
+            <kabupaten>KAIMANA</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-12</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>YIGINUA</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-13</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>MELAGI</name>
+            <kabupaten>LANNY JAYA</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-14</itextId>
+            <provinsi>PAPUA BARAT</provinsi>
+            <name>RANSIKI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-15</itextId>
+            <provinsi>PAPUA BARAT</provinsi>
+            <name>ORANSBARI</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-16</itextId>
+            <provinsi>PAPUA BARAT</provinsi>
+            <name>MOMI WAREN</name>
+            <kabupaten>MANOKWARI SELATAN</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-17</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>UWAPA</name>
+            <kabupaten>NABIRE</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-18</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>TELUK KIMI</name>
+            <kabupaten>NABIRE</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-19</itextId>
+            <provinsi>PAPUA</provinsi>
+            <name>MOORA</name>
+            <kabupaten>NABIRE</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-20</itextId>
+            <provinsi>PAPUA BARAT</provinsi>
+            <name>MAKBON</name>
+            <kabupaten>SORONG</kabupaten>
+          </item>
+          <item>
+            <itextId>static_instance-distrik-21</itextId>
+            <provinsi>PAPUA BARAT</provinsi>
+            <name>SEGET</name>
+            <kabupaten>SORONG</kabupaten>
+          </item>
+        </root>
+      </instance>
+      <instance id="admin">
+        <root>
+          <item>
+            <itextId>static_instance-admin-0</itextId>
+            <name>Ya, Fasilitator PASH tingkat desa yang ditunjuk khusus</name>
+          </item>
+          <item>
+            <itextId>static_instance-admin-1</itextId>
+            <name>Ya, Aparat desa yang menyediakan layanan adminduk, tetapi memiliki tugas lainnya</name>
+          </item>
+          <item>
+            <itextId>static_instance-admin-2</itextId>
+            <name>Tidak, seluruh layanan adminduk hanya tersedia di luar desa</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="gender">
+        <root>
+          <item>
+            <itextId>static_instance-gender-0</itextId>
+            <name>Laki-laki</name>
+          </item>
+          <item>
+            <itextId>static_instance-gender-1</itextId>
+            <name>Perempuan</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="hasil">
+        <root>
+          <item>
+            <itextId>static_instance-hasil-0</itextId>
+            <name>Baru Mulai</name>
+          </item>
+          <item>
+            <itextId>static_instance-hasil-1</itextId>
+            <name>Sedang Proses</name>
+          </item>
+          <item>
+            <itextId>static_instance-hasil-2</itextId>
+            <name>Hampir Selesai</name>
+          </item>
+          <item>
+            <itextId>static_instance-hasil-3</itextId>
+            <name>Sudah Selesai</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="datasid">
+        <root>
+          <item>
+            <itextId>static_instance-datasid-0</itextId>
+            <name>Ya, dalam SID</name>
+          </item>
+          <item>
+            <itextId>static_instance-datasid-1</itextId>
+            <name>Ya, disimpan manual (paperbased)</name>
+          </item>
+          <item>
+            <itextId>static_instance-datasid-2</itextId>
+            <name>Tidak</name>
+          </item>
+          <item>
+            <itextId>static_instance-datasid-3</itextId>
+            <name>N/A</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="metode">
+        <root>
+          <item>
+            <itextId>static_instance-metode-0</itextId>
+            <name>Wawancara langsung (face-to-face interview)</name>
+          </item>
+          <item>
+            <itextId>static_instance-metode-1</itextId>
+            <name>Wawancara melalui telepon</name>
+          </item>
+          <item>
+            <itextId>static_instance-metode-2</itextId>
+            <name>Responden mengisi langsung kuesioner hard copy</name>
+          </item>
+          <item>
+            <itextId>static_instance-metode-3</itextId>
+            <name>Responden mengisi langsung kuesioner secara online (melalui tautan data entry)</name>
+          </item>
+          <item>
+            <itextId>static_instance-metode-4</itextId>
+            <name>Lainnya</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="jwb">
+        <root>
+          <item>
+            <itextId>static_instance-jwb-0</itextId>
+            <name>Ya</name>
+          </item>
+          <item>
+            <itextId>static_instance-jwb-1</itextId>
+            <name>Tidak</name>
+          </item>
+          <item>
+            <itextId>static_instance-jwb-2</itextId>
+            <name>Tidak Tahu</name>
+          </item>
+          <item>
+            <itextId>static_instance-jwb-3</itextId>
+            <name>Lainnya</name>
+          </item>
+        </root>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/survey_kampung_122020/start" type="dateTime"/>
+      <bind nodeset="/survey_kampung_122020/select_appearance_note" readonly="true()" type="string"/>
+      <bind nodeset="/survey_kampung_122020/A0/nama_surveyor" required="true()" type="string"/>
+      <bind nodeset="/survey_kampung_122020/A0/nama_responden" required="true()" type="string"/>
+      <bind nodeset="/survey_kampung_122020/A0/tanggal_survey" required="true()" type="date"/>
+      <bind nodeset="/survey_kampung_122020/A0/metode_pengumpul_data" required="true()" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/A0/metode_lainnya" relevant="selected( /survey_kampung_122020/A0/metode_pengumpul_data , 'Lainnya')" type="string"/>
+      <bind nodeset="/survey_kampung_122020/A0/provinsi" required="true()" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/A0/kabupaten" required="true()" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/A0/distrik" required="true()" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/A0/kampung" required="true()" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/A/jml_pddk_desa" type="int"/>
+      <bind nodeset="/survey_kampung_122020/A/wakil_perem_pem_desa" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/A/aparat_laki-laki" type="int"/>
+      <bind nodeset="/survey_kampung_122020/A/aparat_perempuan" type="int"/>
+      <bind nodeset="/survey_kampung_122020/A/BPD_laki-laki" type="int"/>
+      <bind nodeset="/survey_kampung_122020/A/BPD_perempuan" type="int"/>
+      <bind nodeset="/survey_kampung_122020/A/bumdes" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/A/A1/bmd_usaha_sosial" relevant="selected( /survey_kampung_122020/A/bumdes , 'Ya')" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/A/A1/bmd_penyewaan" relevant="selected( /survey_kampung_122020/A/bumdes , 'Ya')" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/A/A1/bmd_usaha_perantara" relevant="selected( /survey_kampung_122020/A/bumdes , 'Ya')" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/A/A1/bmd_produksi" relevant="selected( /survey_kampung_122020/A/bumdes , 'Ya')" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/A/A1/bmd_keuangan" relevant="selected( /survey_kampung_122020/A/bumdes , 'Ya')" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/A/A1/bmd_usaha_induk" relevant="selected( /survey_kampung_122020/A/bumdes , 'Ya')" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/B/pend_kecamatan" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/B/pe_per_pengg" relevant="selected( /survey_kampung_122020/B/pend_kecamatan , 'Ya')" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/B/pe_BLT_DD" relevant="selected( /survey_kampung_122020/B/pend_kecamatan , 'Ya')" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/B/pe_koor_covid" relevant="selected( /survey_kampung_122020/B/pend_kecamatan , 'Ya')" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/B/pe_adminduk" relevant="selected( /survey_kampung_122020/B/pend_kecamatan , 'Ya')" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/B/pe_sid" relevant="selected( /survey_kampung_122020/B/pend_kecamatan , 'Ya')" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/B/pe_akuntabilitas_sosial" relevant="selected( /survey_kampung_122020/B/pend_kecamatan , 'Ya')" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/B/pembelajaran_mandiri" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/B/topik" relevant="selected( /survey_kampung_122020/B/pembelajaran_mandiri , 'Ya')" type="string"/>
+      <bind nodeset="/survey_kampung_122020/C/serahkan_apbd_asli" type="date"/>
+      <bind nodeset="/survey_kampung_122020/C/total_abpk_asli_2020" type="string"/>
+      <bind nodeset="/survey_kampung_122020/C/perubahan_abpk" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/C/alasan_ubah" type="string"/>
+      <bind nodeset="/survey_kampung_122020/C/C1/judul" readonly="true()" type="string"/>
+      <bind nodeset="/survey_kampung_122020/C/C1/kesehatan" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/C/C1/pendidikan" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/C/C1/adminduk" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/ada_sid" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D1/judul_5" readonly="true()" type="string"/>
+      <bind nodeset="/survey_kampung_122020/D/D1/sid_koneksi" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D1/sid_anggaran" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D1/sid_kapasitas" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D1/sid_offline" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D1/sid_lainnya" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D1/alasan_lainnya" relevant="selected( /survey_kampung_122020/D/D1/sid_lainnya , 'Ya')" type="string"/>
+      <bind nodeset="/survey_kampung_122020/D/model_sid" type="select"/>
+      <bind nodeset="/survey_kampung_122020/D/alasan_lainnya_model" relevant="selected( /survey_kampung_122020/D/model_sid , 'Lainnya')" type="string"/>
+      <bind nodeset="/survey_kampung_122020/D/operator_terlatih" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/dana_sid" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D2/judul_11" readonly="true()" type="string"/>
+      <bind nodeset="/survey_kampung_122020/D/D2/peny_disabilitas" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D2/aps" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D2/jumlah_siswa_paud" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D2/dok_adminduk" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D2/masyarakat_miskin" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/sid_update" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D3/judul_1" readonly="true()" type="string"/>
+      <bind nodeset="/survey_kampung_122020/D/D3/sid_peren" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D3/sid_blt_dd" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D3/sid_covid19" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D3/sid_adminduk" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D3/sid_landasan" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/D/D3/sid_podes" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/H/sdm_terlatih" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/H/rt_update" type="int"/>
+      <bind nodeset="/survey_kampung_122020/H/kel_pen_blt" type="int"/>
+      <bind nodeset="/survey_kampung_122020/H/lay_adminduk" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/H/H1/judul_12" readonly="true()" type="string"/>
+      <bind nodeset="/survey_kampung_122020/H/H1/akta_lahir" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/H/H1/kartu_kk" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/H/H1/ket_domisili" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/H/H1/peng_nik" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/H/jumlah_akta_lahir" type="int"/>
+      <bind nodeset="/survey_kampung_122020/H/jum_anak_dibawah_18" type="int"/>
+      <bind nodeset="/survey_kampung_122020/H/jum_kk_terbit" type="int"/>
+      <bind nodeset="/survey_kampung_122020/H/jumlah_ktp_terbit" type="int"/>
+      <bind nodeset="/survey_kampung_122020/H/rata_urus_akte_lahir" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/H/biaya_urus_akte" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/H/lay_disabilitas" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/H/jum_disabilitas_dibantu" type="int"/>
+      <bind nodeset="/survey_kampung_122020/F/bpd_dilatih" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/F/F1/judul_13" readonly="true()" type="string"/>
+      <bind nodeset="/survey_kampung_122020/F/F1/posko_bpd" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/F/F1/klik_pekka" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/F/F1/musdes" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/F/F1/kel_perempuan" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/F/F1/pakai_WA" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/F/F1/kotak_aspirasi" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/F/F1/aduan_lainnya" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/F/F1/aduan_lainnya_sebutkan" relevant="selected( /survey_kampung_122020/F/F1/aduan_lainnya , 'Ya')" type="string"/>
+      <bind nodeset="/survey_kampung_122020/F/trans_apbk" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/F/laksanakan_musdes" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/F/F2/judul_14" readonly="true()" type="string"/>
+      <bind nodeset="/survey_kampung_122020/F/F2/musren_desa" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/F/F2/fas_musdes" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/F/F2/mus_kel_rentan" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/catatan_lain" type="string"/>
+      <bind nodeset="/survey_kampung_122020/select_appearance_note_12" readonly="true()" type="string"/>
+      <bind nodeset="/survey_kampung_122020/kader_repeat_test/kader_nama" required="true()" type="string"/>
+      <bind nodeset="/survey_kampung_122020/kader_repeat_test/kader_umur" required="true()" type="int"/>
+      <bind nodeset="/survey_kampung_122020/kader_repeat_test/kader_gender" required="true()" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/kader_repeat_test/kader_SK" required="true()" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/kader_repeat_test/kader_Insentif" required="true()" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/kader_repeat_test/kader_latih_pendataan" required="true()" type="select1"/>
+      <bind nodeset="/survey_kampung_122020/kader_repeat_test/kader_latih_penginputan" required="true()" type="select1"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/survey_kampung_122020/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/survey_kampung_122020/select_appearance_note">
+      <label>Formulir Profil Desa - KOMPAK</label>
+      <hint>Informasi mengenai berbagai hasil dan kemajuan yang terlihat di setiap Desa. Survey dilakukan setiap 6 bulan di seluruh Desa yang berada di wilayah Kecamatan dampingan KOMPAK.
+
+Survei ini memberikan gambaran dan informasi tentang kondisi desa. Status berbagai elemen tidak hanya terbatas pada hasil pendampingan yang dilakukan oleh KOMPAK, tetapi bisa juga diberikan oleh lembaga lain (contohnya pelatihan perencanaan dan penganggaran desa, ini dapat dilakukan oleh KOMPAK, pemerintah atau lembaga lain).</hint>
+    </input>
+    <group appearance="field-list" ref="/survey_kampung_122020/A0">
+      <label>Informasi Surveyor dan Responden</label>
+      <input ref="/survey_kampung_122020/A0/nama_surveyor">
+        <label>Nama dan posisi Surveyor</label>
+        <hint>(siapa yang mengisi form ini)</hint>
+      </input>
+      <input ref="/survey_kampung_122020/A0/nama_responden">
+        <label>Nama dan posisi Responden</label>
+        <hint>(nama dan posisi, jika responden lebih dari 1 tuliskan semua dengan
+tanda koma)</hint>
+      </input>
+      <input ref="/survey_kampung_122020/A0/tanggal_survey">
+        <label>Masukkan Tanggal Pelaksanaan Survey</label>
+      </input>
+      <select1 ref="/survey_kampung_122020/A0/metode_pengumpul_data">
+        <label>Cara Pengumpulan Data</label>
+        <item>
+          <label>Wawancara langsung (face-to-face interview)</label>
+          <value>Wawancara langsung (face-to-face interview)</value>
+        </item>
+        <item>
+          <label>Wawancara melalui telepon</label>
+          <value>Wawancara melalui telepon</value>
+        </item>
+        <item>
+          <label>Responden mengisi langsung kuesioner hard copy</label>
+          <value>Responden mengisi langsung kuesioner hard copy</value>
+        </item>
+        <item>
+          <label>Responden mengisi langsung kuesioner secara online (melalui tautan data entry)</label>
+          <value>Responden mengisi langsung kuesioner secara online (melalui tautan data entry)</value>
+        </item>
+        <item>
+          <label>Lainnya</label>
+          <value>Lainnya</value>
+        </item>
+      </select1>
+      <input ref="/survey_kampung_122020/A0/metode_lainnya">
+        <label>Cara Pengumpulan Data Lainnya</label>
+        <hint>Isi ini jika pilih jawaban Lainnya</hint>
+      </input>
+      <select1 ref="/survey_kampung_122020/A0/provinsi">
+        <label>Pilih Provinsi</label>
+        <item>
+          <label>PAPUA</label>
+          <value>PAPUA</value>
+        </item>
+        <item>
+          <label>PAPUA BARAT</label>
+          <value>PAPUA BARAT</value>
+        </item>
+      </select1>
+      <select1 ref="/survey_kampung_122020/A0/kabupaten">
+        <label>Pilih Kabupaten</label>
+        <itemset nodeset="instance('kabupaten')/root/item[provinsi= /survey_kampung_122020/A0/provinsi ]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+      <select1 ref="/survey_kampung_122020/A0/distrik">
+        <label>Pilih Distrik</label>
+        <itemset nodeset="instance('distrik')/root/item[provinsi= /survey_kampung_122020/A0/provinsi  and kabupaten= /survey_kampung_122020/A0/kabupaten ]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+      <select1 ref="/survey_kampung_122020/A0/kampung">
+        <label>Pilih Kampung</label>
+        <itemset nodeset="instance('kampung')/root/item[provinsi= /survey_kampung_122020/A0/provinsi  and kabupaten= /survey_kampung_122020/A0/kabupaten  and distrik= /survey_kampung_122020/A0/distrik ]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+    </group>
+    <group ref="/survey_kampung_122020/A">
+      <label>INFORMASI UMUM DESA</label>
+      <input ref="/survey_kampung_122020/A/jml_pddk_desa">
+        <label>Jumlah Penduduk Desa/Kampung</label>
+        <hint>Berdasarkan Data Kampung</hint>
+      </input>
+      <select1 ref="/survey_kampung_122020/A/wakil_perem_pem_desa">
+        <label>Apakah ada minimal satu orang Perempuan yang menjabat sebagai Aparat Pemerintah Desa</label>
+        <hint>(baik sebagai Kepala Desa, Sekretaris Desa, atau Bendahara Desa)?</hint>
+        <item>
+          <label>Ya</label>
+          <value>Ya</value>
+        </item>
+        <item>
+          <label>Tidak</label>
+          <value>Tidak</value>
+        </item>
+        <item>
+          <label>Tidak Tahu</label>
+          <value>Tidak Tahu</value>
+        </item>
+      </select1>
+      <input ref="/survey_kampung_122020/A/aparat_laki-laki">
+        <label>Jumlah aparat Pemerintah Desa LAKI-LAKI</label>
+        <hint>(termasuk Kepala Desa, Sekretaris Desa, atau Bendahara Desa)</hint>
+      </input>
+      <input ref="/survey_kampung_122020/A/aparat_perempuan">
+        <label>Jumlah aparat Pemerintah Desa PEREMUAN</label>
+        <hint>(termasuk Kepala Desa, Sekretaris Desa, atau Bendahara Desa)</hint>
+      </input>
+      <input ref="/survey_kampung_122020/A/BPD_laki-laki">
+        <label>Jumlah anggota BPD LAKI-LAKI</label>
+        <hint>(termasuk Kepala, Wakil Kepala, Sekretaris, atau Bendahara BPD)</hint>
+      </input>
+      <input ref="/survey_kampung_122020/A/BPD_perempuan">
+        <label>Jumlah anggota BPD PEREMPUAN</label>
+        <hint>(termasuk Kepala, Wakil Kepala, Sekretaris, atau Bendahara BPD)</hint>
+      </input>
+      <select1 ref="/survey_kampung_122020/A/bumdes">
+        <label>Apakah ada BUMDES di desa ini?</label>
+        <item>
+          <label>Ya</label>
+          <value>Ya</value>
+        </item>
+        <item>
+          <label>Tidak</label>
+          <value>Tidak</value>
+        </item>
+      </select1>
+      <group ref="/survey_kampung_122020/A/A1">
+        <label>Sektor Usaha BUMDES</label>
+        <select1 ref="/survey_kampung_122020/A/A1/bmd_usaha_sosial">
+          <label>Usaha Sosial (air minum desa, listrik desa, lumbung makanan, dll)</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/A/A1/bmd_penyewaan">
+          <label>Penyewaan (transportasi, tanah, hotel, ruang pertemuan, peralatan pesta, dll)</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/A/A1/bmd_usaha_perantara">
+          <label>Usaha perantara/brokering (layanan pembayaran listrik, pasar desa, dll)</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/A/A1/bmd_produksi">
+          <label>Produksi dan perdagangan (pertanian, pabrik, kerajinan tangan, produksi pangan, dll)</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/A/A1/bmd_keuangan">
+          <label>Usaha keuangan (kredit, simpan pinjam, dll)</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/A/A1/bmd_usaha_induk">
+          <label>Usaha induk yang mengkoordinasikan usaha kecil desa lainnya (Desa Wisata, perahu nelayan desa, dll)</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <group ref="/survey_kampung_122020/B">
+      <label>PERAN KECAMATAN DALAM MENDUKUNG TATA KELOLA DESA (PTPD/PbMAD)</label>
+      <select1 ref="/survey_kampung_122020/B/pend_kecamatan">
+        <label>Dalam kurun 6 bulan terakhir, apakah Pemerintah Desa pernah menerima pendampingan teknis dari pihak Kecamatan?</label>
+        <item>
+          <label>Ya</label>
+          <value>Ya</value>
+        </item>
+        <item>
+          <label>Tidak</label>
+          <value>Tidak</value>
+        </item>
+      </select1>
+      <select1 ref="/survey_kampung_122020/B/pe_per_pengg">
+        <label>Perencanaan dan Penganggaran Desa (RKPDes, RPJMDes, APBDes, Siskeudes)</label>
+        <item>
+          <label>Fasilitasi tidak dilakukan untuk hal ini</label>
+          <value>Fasilitasi tidak dilakukan untuk hal ini</value>
+        </item>
+        <item>
+          <label>Tidak Bermanfaat</label>
+          <value>Tidak Bermanfaat</value>
+        </item>
+        <item>
+          <label>Kurang Bermanfaat</label>
+          <value>Kurang Bermanfaat</value>
+        </item>
+        <item>
+          <label>Bermanfaat</label>
+          <value>Bermanfaat</value>
+        </item>
+        <item>
+          <label>Sangat Bermanfaat</label>
+          <value>Sangat Bermanfaat</value>
+        </item>
+      </select1>
+      <select1 ref="/survey_kampung_122020/B/pe_BLT_DD">
+        <label>Pelaksanaan atau penentuan sasaran dari BLT DD</label>
+        <item>
+          <label>Fasilitasi tidak dilakukan untuk hal ini</label>
+          <value>Fasilitasi tidak dilakukan untuk hal ini</value>
+        </item>
+        <item>
+          <label>Tidak Bermanfaat</label>
+          <value>Tidak Bermanfaat</value>
+        </item>
+        <item>
+          <label>Kurang Bermanfaat</label>
+          <value>Kurang Bermanfaat</value>
+        </item>
+        <item>
+          <label>Bermanfaat</label>
+          <value>Bermanfaat</value>
+        </item>
+        <item>
+          <label>Sangat Bermanfaat</label>
+          <value>Sangat Bermanfaat</value>
+        </item>
+      </select1>
+      <select1 ref="/survey_kampung_122020/B/pe_koor_covid">
+        <label>Koordinasi dan perencanaan kegiatan penanggulangan COVID-19</label>
+        <item>
+          <label>Fasilitasi tidak dilakukan untuk hal ini</label>
+          <value>Fasilitasi tidak dilakukan untuk hal ini</value>
+        </item>
+        <item>
+          <label>Tidak Bermanfaat</label>
+          <value>Tidak Bermanfaat</value>
+        </item>
+        <item>
+          <label>Kurang Bermanfaat</label>
+          <value>Kurang Bermanfaat</value>
+        </item>
+        <item>
+          <label>Bermanfaat</label>
+          <value>Bermanfaat</value>
+        </item>
+        <item>
+          <label>Sangat Bermanfaat</label>
+          <value>Sangat Bermanfaat</value>
+        </item>
+      </select1>
+      <select1 ref="/survey_kampung_122020/B/pe_adminduk">
+        <label>Layanan Penjangkauan Adminduk</label>
+        <item>
+          <label>Fasilitasi tidak dilakukan untuk hal ini</label>
+          <value>Fasilitasi tidak dilakukan untuk hal ini</value>
+        </item>
+        <item>
+          <label>Tidak Bermanfaat</label>
+          <value>Tidak Bermanfaat</value>
+        </item>
+        <item>
+          <label>Kurang Bermanfaat</label>
+          <value>Kurang Bermanfaat</value>
+        </item>
+        <item>
+          <label>Bermanfaat</label>
+          <value>Bermanfaat</value>
+        </item>
+        <item>
+          <label>Sangat Bermanfaat</label>
+          <value>Sangat Bermanfaat</value>
+        </item>
+      </select1>
+      <select1 ref="/survey_kampung_122020/B/pe_sid">
+        <label>Pengelolaan Sistem Informasi Desa</label>
+        <item>
+          <label>Fasilitasi tidak dilakukan untuk hal ini</label>
+          <value>Fasilitasi tidak dilakukan untuk hal ini</value>
+        </item>
+        <item>
+          <label>Tidak Bermanfaat</label>
+          <value>Tidak Bermanfaat</value>
+        </item>
+        <item>
+          <label>Kurang Bermanfaat</label>
+          <value>Kurang Bermanfaat</value>
+        </item>
+        <item>
+          <label>Bermanfaat</label>
+          <value>Bermanfaat</value>
+        </item>
+        <item>
+          <label>Sangat Bermanfaat</label>
+          <value>Sangat Bermanfaat</value>
+        </item>
+      </select1>
+      <select1 ref="/survey_kampung_122020/B/pe_akuntabilitas_sosial">
+        <label>Mekanisme akuntabilitas sosial (mekanisme penanganan aduan, Klinik Desa, dll)</label>
+        <item>
+          <label>Fasilitasi tidak dilakukan untuk hal ini</label>
+          <value>Fasilitasi tidak dilakukan untuk hal ini</value>
+        </item>
+        <item>
+          <label>Tidak Bermanfaat</label>
+          <value>Tidak Bermanfaat</value>
+        </item>
+        <item>
+          <label>Kurang Bermanfaat</label>
+          <value>Kurang Bermanfaat</value>
+        </item>
+        <item>
+          <label>Bermanfaat</label>
+          <value>Bermanfaat</value>
+        </item>
+        <item>
+          <label>Sangat Bermanfaat</label>
+          <value>Sangat Bermanfaat</value>
+        </item>
+      </select1>
+      <select1 ref="/survey_kampung_122020/B/pembelajaran_mandiri">
+        <label>Dalam 6 bulan terakahir, apakah Pemerintah Desa melakukan pembelajaran secara mandiri dengan bantuan fasilitasi/materi dari Kecamatan?</label>
+        <hint>(PbMAD, atau sejenisnya sesuai konteks lokal)</hint>
+        <item>
+          <label>Ya</label>
+          <value>Ya</value>
+        </item>
+        <item>
+          <label>Tidak</label>
+          <value>Tidak</value>
+        </item>
+      </select1>
+      <input ref="/survey_kampung_122020/B/topik">
+        <label>Jika YA, topik apa yang dipelajari melalui PbMAD?</label>
+      </input>
+    </group>
+    <group ref="/survey_kampung_122020/C">
+      <label>PENGUATAN PERENCANAAN DAN PENGANGGARAN DESA YANG INKLUSIF</label>
+      <input ref="/survey_kampung_122020/C/serahkan_apbd_asli">
+        <label>Kapan desa menyerahkan APBDesa tahun anggaran 2020 asli (sebelum perubahan pertama)</label>
+      </input>
+      <input ref="/survey_kampung_122020/C/total_abpk_asli_2020">
+        <label>Total anggaran (nilai) APBDesa asli 2020</label>
+      </input>
+      <select1 ref="/survey_kampung_122020/C/perubahan_abpk">
+        <label>Berapa kali desa melakukan perubahan APBDesa 2020?</label>
+        <item>
+          <label>Satu Kali</label>
+          <value>Satu Kali</value>
+        </item>
+        <item>
+          <label>Dua Kali</label>
+          <value>Dua Kali</value>
+        </item>
+        <item>
+          <label>Tiga Kali</label>
+          <value>Tiga Kali</value>
+        </item>
+        <item>
+          <label>Lebih dari tiga kali</label>
+          <value>Lebih dari tiga kali</value>
+        </item>
+        <item>
+          <label>Tidak pernah melakukan perubahan APBDes 2020</label>
+          <value>Tidak pernah melakukan perubahan APBDes 2020</value>
+        </item>
+      </select1>
+      <input ref="/survey_kampung_122020/C/alasan_ubah">
+        <label>Alasan dilakukannya revisi/perubahan APBDesa</label>
+      </input>
+      <group appearance="field-list" ref="/survey_kampung_122020/C/C1">
+        <label>Sinergi Perencanaan</label>
+        <input ref="/survey_kampung_122020/C/C1/judul">
+          <label>Dalam 12 bulan terakhir, apakah desa dan unit layanan (puskesmas/sekolah) pernah melaksanakan perencanaan bersama dan/atau rapat kolaborasi setidaknya satu kali?</label>
+        </input>
+        <select1 ref="/survey_kampung_122020/C/C1/kesehatan">
+          <label>Untuk Isu Kesehatan (KIA, Nutrisi, Malaria, HIV/AIDS, dsb.)</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+          <item>
+            <label>Tidak Dilakukan</label>
+            <value>Tidak Dilakukan</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/C/C1/pendidikan">
+          <label>Untuk Isu Pendidikan (PAUD, ATS, dsb.)</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+          <item>
+            <label>Tidak Dilakukan</label>
+            <value>Tidak Dilakukan</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/C/C1/adminduk">
+          <label>Untuk Isu Administrasi dan Kependudukan</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+          <item>
+            <label>Tidak Dilakukan</label>
+            <value>Tidak Dilakukan</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <group ref="/survey_kampung_122020/D">
+      <label>SISTEM INFORMASI DESA (SID)</label>
+      <select1 ref="/survey_kampung_122020/D/ada_sid">
+        <label>Apakah ada Sistem Informasi Desa/SID (atau sejenis sesuai konteks lokal)?</label>
+        <item>
+          <label>Ya, online</label>
+          <value>Ya, online</value>
+        </item>
+        <item>
+          <label>Ya, offline</label>
+          <value>Ya, offline</value>
+        </item>
+        <item>
+          <label>Ya, Manual, dengan sistem Buku Register</label>
+          <value>Ya, Manual, dengan sistem Buku Register</value>
+        </item>
+        <item>
+          <label>Tidak ada</label>
+          <value>Tidak ada</value>
+        </item>
+      </select1>
+      <group appearance="field-list" ref="/survey_kampung_122020/D/D1">
+        <input ref="/survey_kampung_122020/D/D1/judul_5">
+          <label>Jika tidak menggunakan SID Online, apa alasannya?</label>
+        </input>
+        <select1 ref="/survey_kampung_122020/D/D1/sid_koneksi">
+          <label>Koneksi internet di desa atau kecamatan tidak tersedia (atau tidak stabil)</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/D/D1/sid_anggaran">
+          <label>Tidak ada anggaran (biaya pembuatan sistem SID online, koneksi internet, biaya operator, pembelian perangkat komputer, dll)</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/D/D1/sid_kapasitas">
+          <label>Kurangnya kapasitas dan jumlah SDM untuk menerapkan SID online</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/D/D1/sid_offline">
+          <label>Sistem SID memang tidak dibuat online</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/D/D1/sid_lainnya">
+          <label>Lainnya</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <input ref="/survey_kampung_122020/D/D1/alasan_lainnya">
+          <label>Jika Lainnya, sebutkan</label>
+        </input>
+      </group>
+      <select ref="/survey_kampung_122020/D/model_sid">
+        <label>Apakah model SID yang digunakan di desa ini?</label>
+        <item>
+          <label>PRODESKEL (Profil Desa dan Kelurahan)</label>
+          <value>PRODESKEL_(Profil_Desa_dan_Kelurahan)</value>
+        </item>
+        <item>
+          <label>SIDEKA (Sistem Informasi Desa dan Kawasan)</label>
+          <value>SIDEKA_(Sistem_Informasi_Desa_dan_Kawasan)</value>
+        </item>
+        <item>
+          <label>OPENSID</label>
+          <value>OPENSID</value>
+        </item>
+        <item>
+          <label>CRI (Combine Resource Institution)</label>
+          <value>CRI_(Combine_Resource_Institution)</value>
+        </item>
+        <item>
+          <label>MITRA DESA</label>
+          <value>MITRA_DESA</value>
+        </item>
+        <item>
+          <label>SIGAP (SIG Kominsa Aceh)</label>
+          <value>SIGAP_(SIG_Kominsa_Aceh)</value>
+        </item>
+        <item>
+          <label>SAID Bondowoso</label>
+          <value>SAID_Bondowoso</value>
+        </item>
+        <item>
+          <label>SIADEK</label>
+          <value>SIADEK</value>
+        </item>
+        <item>
+          <label>SAIK/SAID Papua</label>
+          <value>SAIK/SAID_Papua</value>
+        </item>
+        <item>
+          <label>Manual menggunakan buku registrasi kependudukan</label>
+          <value>Manual_menggunakan_buku_registrasi_kependudukan</value>
+        </item>
+        <item>
+          <label>Lainnya</label>
+          <value>Lainnya</value>
+        </item>
+      </select>
+      <input ref="/survey_kampung_122020/D/alasan_lainnya_model">
+        <label>Jika Lainnya, sebutkan</label>
+      </input>
+      <select1 ref="/survey_kampung_122020/D/operator_terlatih">
+        <label>Apakah ada operator yang terlatih untuk menggunakan SID di desa?</label>
+        <item>
+          <label>Ya</label>
+          <value>Ya</value>
+        </item>
+        <item>
+          <label>Tidak</label>
+          <value>Tidak</value>
+        </item>
+      </select1>
+      <select1 ref="/survey_kampung_122020/D/dana_sid">
+        <label>Apakah terdapat alokasi anggaran desa untuk SID (sistem, operasionalisasi, dan jasa operator)?</label>
+        <item>
+          <label>Ya</label>
+          <value>Ya</value>
+        </item>
+        <item>
+          <label>Tidak</label>
+          <value>Tidak</value>
+        </item>
+      </select1>
+      <group appearance="field-list" ref="/survey_kampung_122020/D/D2">
+        <input ref="/survey_kampung_122020/D/D2/judul_11">
+          <label>Apakah SID (atau sejenis) memiliki data spesifik terkait:</label>
+        </input>
+        <select1 ref="/survey_kampung_122020/D/D2/peny_disabilitas">
+          <label>Penyandang Disabilitas</label>
+          <item>
+            <label>Ya, dalam SID</label>
+            <value>Ya, dalam SID</value>
+          </item>
+          <item>
+            <label>Ya, disimpan manual (paperbased)</label>
+            <value>Ya, disimpan manual (paperbased)</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+          <item>
+            <label>N/A</label>
+            <value>N/A</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/D/D2/aps">
+          <label>Anak Putus Sekolah</label>
+          <item>
+            <label>Ya, dalam SID</label>
+            <value>Ya, dalam SID</value>
+          </item>
+          <item>
+            <label>Ya, disimpan manual (paperbased)</label>
+            <value>Ya, disimpan manual (paperbased)</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+          <item>
+            <label>N/A</label>
+            <value>N/A</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/D/D2/jumlah_siswa_paud">
+          <label>Jumlah Siswa PAUD</label>
+          <item>
+            <label>Ya, dalam SID</label>
+            <value>Ya, dalam SID</value>
+          </item>
+          <item>
+            <label>Ya, disimpan manual (paperbased)</label>
+            <value>Ya, disimpan manual (paperbased)</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+          <item>
+            <label>N/A</label>
+            <value>N/A</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/D/D2/dok_adminduk">
+          <label>Dokumen Administrasi dan Kependudukan</label>
+          <item>
+            <label>Ya, dalam SID</label>
+            <value>Ya, dalam SID</value>
+          </item>
+          <item>
+            <label>Ya, disimpan manual (paperbased)</label>
+            <value>Ya, disimpan manual (paperbased)</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+          <item>
+            <label>N/A</label>
+            <value>N/A</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/D/D2/masyarakat_miskin">
+          <label>Masyarakat Miskin</label>
+          <item>
+            <label>Ya, dalam SID</label>
+            <value>Ya, dalam SID</value>
+          </item>
+          <item>
+            <label>Ya, disimpan manual (paperbased)</label>
+            <value>Ya, disimpan manual (paperbased)</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+          <item>
+            <label>N/A</label>
+            <value>N/A</value>
+          </item>
+        </select1>
+      </group>
+      <select1 ref="/survey_kampung_122020/D/sid_update">
+        <label>Seberapa sering SID (atau sejenis) dilakukan pemutakhiran data (update)?</label>
+        <item>
+          <label>Setiap hari</label>
+          <value>Setiap hari</value>
+        </item>
+        <item>
+          <label>Setiap minggu</label>
+          <value>Setiap minggu</value>
+        </item>
+        <item>
+          <label>Setiap bulan</label>
+          <value>Setiap bulan</value>
+        </item>
+        <item>
+          <label>Setiap 2-6 bulan</label>
+          <value>Setiap 2-6 bulan</value>
+        </item>
+        <item>
+          <label>Setiap 7-12 bulan</label>
+          <value>Setiap 7-12 bulan</value>
+        </item>
+        <item>
+          <label>Jarang atau tidak pernah</label>
+          <value>Jarang atau tidak pernah</value>
+        </item>
+      </select1>
+      <group appearance="field-list" ref="/survey_kampung_122020/D/D3">
+        <input ref="/survey_kampung_122020/D/D3/judul_1">
+          <label>Seberapa BERMANFAAT data SID (atau sejenis) untuk hal- hal berikut:</label>
+        </input>
+        <select1 ref="/survey_kampung_122020/D/D3/sid_peren">
+          <label>Mendukung perencanaan, penganggaran, penyusunan program, kegiatan dan sasaran (termasuk APBDesa 2020)</label>
+          <item>
+            <label>SID tidak digunakan untuk hal ini</label>
+            <value>SID tidak digunakan untuk hal ini</value>
+          </item>
+          <item>
+            <label>Tidak Bermanfaat</label>
+            <value>Tidak Bermanfaat</value>
+          </item>
+          <item>
+            <label>Kurang Bermanfaat</label>
+            <value>Kurang Bermanfaat</value>
+          </item>
+          <item>
+            <label>Bermanfaat</label>
+            <value>Bermanfaat</value>
+          </item>
+          <item>
+            <label>Sangat Bermanfaat</label>
+            <value>Sangat Bermanfaat</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/D/D3/sid_blt_dd">
+          <label>Pelaksanaan atau penentuan sasaran dari BLT DD</label>
+          <item>
+            <label>SID tidak digunakan untuk hal ini</label>
+            <value>SID tidak digunakan untuk hal ini</value>
+          </item>
+          <item>
+            <label>Tidak Bermanfaat</label>
+            <value>Tidak Bermanfaat</value>
+          </item>
+          <item>
+            <label>Kurang Bermanfaat</label>
+            <value>Kurang Bermanfaat</value>
+          </item>
+          <item>
+            <label>Bermanfaat</label>
+            <value>Bermanfaat</value>
+          </item>
+          <item>
+            <label>Sangat Bermanfaat</label>
+            <value>Sangat Bermanfaat</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/D/D3/sid_covid19">
+          <label>Koordinasi dan perencanaan kegiatan penanggulangan COVID-19</label>
+          <item>
+            <label>SID tidak digunakan untuk hal ini</label>
+            <value>SID tidak digunakan untuk hal ini</value>
+          </item>
+          <item>
+            <label>Tidak Bermanfaat</label>
+            <value>Tidak Bermanfaat</value>
+          </item>
+          <item>
+            <label>Kurang Bermanfaat</label>
+            <value>Kurang Bermanfaat</value>
+          </item>
+          <item>
+            <label>Bermanfaat</label>
+            <value>Bermanfaat</value>
+          </item>
+          <item>
+            <label>Sangat Bermanfaat</label>
+            <value>Sangat Bermanfaat</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/D/D3/sid_adminduk">
+          <label>Layanan Penjangkauan Adminduk</label>
+          <item>
+            <label>SID tidak digunakan untuk hal ini</label>
+            <value>SID tidak digunakan untuk hal ini</value>
+          </item>
+          <item>
+            <label>Tidak Bermanfaat</label>
+            <value>Tidak Bermanfaat</value>
+          </item>
+          <item>
+            <label>Kurang Bermanfaat</label>
+            <value>Kurang Bermanfaat</value>
+          </item>
+          <item>
+            <label>Bermanfaat</label>
+            <value>Bermanfaat</value>
+          </item>
+          <item>
+            <label>Sangat Bermanfaat</label>
+            <value>Sangat Bermanfaat</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/D/D3/sid_landasan">
+          <label>Kebutuhan layanan dasar lainnya untuk kesehatan, pendidikan, dan kemiskinan (SKTM, PIP, dll)</label>
+          <item>
+            <label>SID tidak digunakan untuk hal ini</label>
+            <value>SID tidak digunakan untuk hal ini</value>
+          </item>
+          <item>
+            <label>Tidak Bermanfaat</label>
+            <value>Tidak Bermanfaat</value>
+          </item>
+          <item>
+            <label>Kurang Bermanfaat</label>
+            <value>Kurang Bermanfaat</value>
+          </item>
+          <item>
+            <label>Bermanfaat</label>
+            <value>Bermanfaat</value>
+          </item>
+          <item>
+            <label>Sangat Bermanfaat</label>
+            <value>Sangat Bermanfaat</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/D/D3/sid_podes">
+          <label>Informasi Potensi Desa (PODES) atau Profil Desa</label>
+          <item>
+            <label>SID tidak digunakan untuk hal ini</label>
+            <value>SID tidak digunakan untuk hal ini</value>
+          </item>
+          <item>
+            <label>Tidak Bermanfaat</label>
+            <value>Tidak Bermanfaat</value>
+          </item>
+          <item>
+            <label>Kurang Bermanfaat</label>
+            <value>Kurang Bermanfaat</value>
+          </item>
+          <item>
+            <label>Bermanfaat</label>
+            <value>Bermanfaat</value>
+          </item>
+          <item>
+            <label>Sangat Bermanfaat</label>
+            <value>Sangat Bermanfaat</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <group ref="/survey_kampung_122020/H">
+      <label>PENGUATAN ADMINISTRASI KEPENDUDUKAN DI DESA</label>
+      <select1 ref="/survey_kampung_122020/H/sdm_terlatih">
+        <label>Apakah terdapat SDM di desa yang sudah pernah dilatih untuk memutakhirkan DTKS?</label>
+        <item>
+          <label>Ya</label>
+          <value>Ya</value>
+        </item>
+        <item>
+          <label>Tidak</label>
+          <value>Tidak</value>
+        </item>
+      </select1>
+      <input ref="/survey_kampung_122020/H/rt_update">
+        <label>Pada tahun 2020, dalam mengupdate DTKS, berapa rumah tangga yang datanya dimutakhirkan pemerintah desa kedalam aplikasi SIKS-NG atau SIKS-droid?</label>
+      </input>
+      <input ref="/survey_kampung_122020/H/kel_pen_blt">
+        <label>Jumlah keluarga penerima BLT-DD pada periode tahun 2020</label>
+      </input>
+      <select1 ref="/survey_kampung_122020/H/lay_adminduk">
+        <label>Apakah layanan administrasi kependudukan tersedia di tingkat desa?</label>
+        <item>
+          <label>Ya, Fasilitator PASH tingkat desa yang ditunjuk khusus</label>
+          <value>Ya, Fasilitator PASH tingkat desa yang ditunjuk khusus</value>
+        </item>
+        <item>
+          <label>Ya, Aparat desa yang menyediakan layanan adminduk, tetapi memiliki tugas lainnya</label>
+          <value>Ya, Aparat desa yang menyediakan layanan adminduk, tetapi memiliki tugas lainnya</value>
+        </item>
+        <item>
+          <label>Tidak, seluruh layanan adminduk hanya tersedia di luar desa</label>
+          <value>Tidak, seluruh layanan adminduk hanya tersedia di luar desa</value>
+        </item>
+      </select1>
+      <group appearance="field-list" ref="/survey_kampung_122020/H/H1">
+        <input ref="/survey_kampung_122020/H/H1/judul_12">
+          <label>Apakah desa memfasilitasi layanan administrasi kependudukan secara online?</label>
+        </input>
+        <select1 ref="/survey_kampung_122020/H/H1/akta_lahir">
+          <label>Akta Kelahiran</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/H/H1/kartu_kk">
+          <label>Kartu Keluarga</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/H/H1/ket_domisili">
+          <label>Keterangan Domisili/ Surat Pindah</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/H/H1/peng_nik">
+          <label>Pengajuan NIK terkait dengan penerima bantuan BLT DD</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+      </group>
+      <input ref="/survey_kampung_122020/H/jumlah_akta_lahir">
+        <label>Jumlah AKTE KELAHIRAN yang diterbitkan dengan bantuan desa dalam enam bulan terakhir (online dan offline):</label>
+      </input>
+      <input ref="/survey_kampung_122020/H/jum_anak_dibawah_18">
+        <label>Jumlah anak usia 18 tahun ke bawah yang belum memiliki Akte Kelahiran (jika data tidak tersedia, tuliskan TIDAK ADA DATA)</label>
+      </input>
+      <input ref="/survey_kampung_122020/H/jum_kk_terbit">
+        <label>Jumlah KARTU KELUARGA yang diterbitkan dengan bantuan desa dalam enam bulan terakhir (online dan offline):</label>
+      </input>
+      <input ref="/survey_kampung_122020/H/jumlah_ktp_terbit">
+        <label>Jumlah KTP yang diterbitkan dengan bantuan desa dalam enam bulan terakhir (online and offline):</label>
+      </input>
+      <select1 ref="/survey_kampung_122020/H/rata_urus_akte_lahir">
+        <label>Rata-rata jumlah hari pengurusan dokumen AKTE KELAHIRAN</label>
+        <item>
+          <label>Dalam 24 jam</label>
+          <value>Dalam 24 jam</value>
+        </item>
+        <item>
+          <label>1-5 hari kerja</label>
+          <value>1-5 hari kerja</value>
+        </item>
+        <item>
+          <label>6-10 hari kerja</label>
+          <value>6-10 hari kerja</value>
+        </item>
+        <item>
+          <label>11-30 hari kerja</label>
+          <value>11-30 hari kerja</value>
+        </item>
+        <item>
+          <label>Lebih dari 30 hari kerja</label>
+          <value>Lebih dari 30 hari kerja</value>
+        </item>
+      </select1>
+      <select1 ref="/survey_kampung_122020/H/biaya_urus_akte">
+        <label>Rata-rata BIAYA ADMINISTRASI untuk memperoleh Akta Kelahiran</label>
+        <item>
+          <label>Tidak ada biaya</label>
+          <value>Tidak ada biaya</value>
+        </item>
+        <item>
+          <label>Biaya kurang dari Rp. 50,000</label>
+          <value>Biaya kurang dari Rp. 50,000</value>
+        </item>
+        <item>
+          <label>Biaya Rp. 51,000 - 100,000</label>
+          <value>Biaya Rp. 51,000 - 100,000</value>
+        </item>
+        <item>
+          <label>Biaya Rp.101,000 - 200,000</label>
+          <value>Biaya Rp.101,000 - 200,000</value>
+        </item>
+        <item>
+          <label>Biaya lebih dari Rp. 200,000</label>
+          <value>Biaya lebih dari Rp. 200,000</value>
+        </item>
+      </select1>
+      <select1 ref="/survey_kampung_122020/H/lay_disabilitas">
+        <label>Apakah terdapat layanan KHUSUS yang dilakukan desa untuk menjangkau penyandang disabilitas dalam mengakses layanan adminduk selama kurun waktu enam bulan terakhir?</label>
+        <item>
+          <label>Ya</label>
+          <value>Ya</value>
+        </item>
+        <item>
+          <label>Tidak</label>
+          <value>Tidak</value>
+        </item>
+      </select1>
+      <input ref="/survey_kampung_122020/H/jum_disabilitas_dibantu">
+        <label>Jumlah penyandang disabilitas yang dibantu oleh petugas registrasi desa (PRD, PRG, Kordukcapil, atau sejenis) atau kader dalam enam bulan terakhir (online dan offline):</label>
+      </input>
+    </group>
+    <group ref="/survey_kampung_122020/F">
+      <label>AKUNTABILITAS SOSIAL</label>
+      <select1 ref="/survey_kampung_122020/F/bpd_dilatih">
+        <label>Dalam 12 bulan terakhir, apakah terdapat anggota BPD yang menerima pelatihan satu hari atau lebih tentang literasi anggaran (contoh: Sekar Desa)?</label>
+        <item>
+          <label>Ya</label>
+          <value>Ya</value>
+        </item>
+        <item>
+          <label>Tidak</label>
+          <value>Tidak</value>
+        </item>
+      </select1>
+      <group appearance="field-list" ref="/survey_kampung_122020/F/F1">
+        <input ref="/survey_kampung_122020/F/F1/judul_13">
+          <label>Apakah terdapat mekanisme penanganan aduan di tingkat desa?</label>
+        </input>
+        <select1 ref="/survey_kampung_122020/F/F1/posko_bpd">
+          <label>Posko Aspirasi BPD</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/F/F1/klik_pekka">
+          <label>Klik PEKKA</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/F/F1/musdes">
+          <label>Pertemuan Warga (Musdus/Musdes)</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/F/F1/kel_perempuan">
+          <label>Kelompok Perempuan</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/F/F1/pakai_WA">
+          <label>No. WhatsApp (WA) untuk menyampaikan rekomendasi/tanggapan</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/F/F1/kotak_aspirasi">
+          <label>Kotak Aspirasi di tempat umum</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/F/F1/aduan_lainnya">
+          <label>Lainnya</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <input ref="/survey_kampung_122020/F/F1/aduan_lainnya_sebutkan">
+          <label>Jikan Lainnya, sebutkan</label>
+        </input>
+      </group>
+      <select1 ref="/survey_kampung_122020/F/trans_apbk">
+        <label>Apakah desa menyediakan informasi mengenai APBDes murni DAN APBDes realisasi untuk diakses masyarakat (di website, baliho, spanduk, atau media lainnya)</label>
+        <item>
+          <label>Ya</label>
+          <value>Ya</value>
+        </item>
+        <item>
+          <label>Tidak</label>
+          <value>Tidak</value>
+        </item>
+      </select1>
+      <select1 ref="/survey_kampung_122020/F/laksanakan_musdes">
+        <label>Apakah desa melaksanakan MUSDES Pertanggungjawaban atas APBDesa TA 2019?</label>
+        <item>
+          <label>Ya</label>
+          <value>Ya</value>
+        </item>
+        <item>
+          <label>Tidak</label>
+          <value>Tidak</value>
+        </item>
+      </select1>
+      <group appearance="field-list" ref="/survey_kampung_122020/F/F2">
+        <input ref="/survey_kampung_122020/F/F2/judul_14">
+          <label>Apakah BPD atau Aparat Desa memfasilitasi Musyawarah di Desa?</label>
+        </input>
+        <select1 ref="/survey_kampung_122020/F/F2/musren_desa">
+          <label>Musrenbang Desa</label>
+          <item>
+            <label>Ya, difasilitasi BPD</label>
+            <value>Ya, difasilitasi BPD</value>
+          </item>
+          <item>
+            <label>Ya, Difasilitasi Aparat Desa</label>
+            <value>Ya, Difasilitasi Aparat Desa</value>
+          </item>
+          <item>
+            <label>Ya, Difasilitas BPD dan Aparat Desa</label>
+            <value>Ya, Difasilitas BPD dan Aparat Desa</value>
+          </item>
+          <item>
+            <label>Tidak dilakukan pertemuan tsb</label>
+            <value>Tidak dilakukan pertemuan tsb</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/F/F2/fas_musdes">
+          <label>Musyawarah Desa (Musdes)</label>
+          <item>
+            <label>Ya, difasilitasi BPD</label>
+            <value>Ya, difasilitasi BPD</value>
+          </item>
+          <item>
+            <label>Ya, Difasilitasi Aparat Desa</label>
+            <value>Ya, Difasilitasi Aparat Desa</value>
+          </item>
+          <item>
+            <label>Ya, Difasilitas BPD dan Aparat Desa</label>
+            <value>Ya, Difasilitas BPD dan Aparat Desa</value>
+          </item>
+          <item>
+            <label>Tidak dilakukan pertemuan tsb</label>
+            <value>Tidak dilakukan pertemuan tsb</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/F/F2/mus_kel_rentan">
+          <label>Musyawarah Khusus kelompok rentan (penyandang disabilitas, perempuan, anak anak, dll)</label>
+          <item>
+            <label>Ya, difasilitasi BPD</label>
+            <value>Ya, difasilitasi BPD</value>
+          </item>
+          <item>
+            <label>Ya, Difasilitasi Aparat Desa</label>
+            <value>Ya, Difasilitasi Aparat Desa</value>
+          </item>
+          <item>
+            <label>Ya, Difasilitas BPD dan Aparat Desa</label>
+            <value>Ya, Difasilitas BPD dan Aparat Desa</value>
+          </item>
+          <item>
+            <label>Tidak dilakukan pertemuan tsb</label>
+            <value>Tidak dilakukan pertemuan tsb</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <input appearance="multiline" ref="/survey_kampung_122020/catatan_lain">
+      <label>Tambahkan catatan lain jika ada</label>
+    </input>
+    <input ref="/survey_kampung_122020/select_appearance_note_12">
+      <label>Informasi Terkait Kader Kampung (Di isi per kader)</label>
+      <hint>Informasi mengenai Kader Kampung yang ada atau aktif</hint>
+    </input>
+    <group ref="/survey_kampung_122020/kader_repeat_test">
+      <label>Data Kader</label>
+      <repeat appearance="field-list" nodeset="/survey_kampung_122020/kader_repeat_test">
+        <input ref="/survey_kampung_122020/kader_repeat_test/kader_nama">
+          <label>Nama kader</label>
+        </input>
+        <input ref="/survey_kampung_122020/kader_repeat_test/kader_umur">
+          <label>Umur</label>
+        </input>
+        <select1 ref="/survey_kampung_122020/kader_repeat_test/kader_gender">
+          <label>Jenis Kelamin</label>
+          <item>
+            <label>Laki-laki</label>
+            <value>Laki-laki</value>
+          </item>
+          <item>
+            <label>Perempuan</label>
+            <value>Perempuan</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/kader_repeat_test/kader_SK">
+          <label>Memiliki SK Kampung sebagai Kader</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/kader_repeat_test/kader_Insentif">
+          <label>Mendapat insentif/ tunjangan sebagai kader</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/kader_repeat_test/kader_latih_pendataan">
+          <label>Apakah terlatih pendataan SAIK+/ SIO Papua</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+        <select1 ref="/survey_kampung_122020/kader_repeat_test/kader_latih_penginputan">
+          <label>Apakah terlatih pengoperasian SAIK+/ SIO Papua</label>
+          <item>
+            <label>Ya</label>
+            <value>Ya</value>
+          </item>
+          <item>
+            <label>Tidak</label>
+            <value>Tidak</value>
+          </item>
+        </select1>
+      </repeat>
+    </group>
+  </h:body>
+</h:html>

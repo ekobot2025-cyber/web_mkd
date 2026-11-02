@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #640404;
+  --primary-dark: #450202;
+  --maroon: #640404;
+  --maroon-dark: #450202;
+  --yellow: #FFB013;
+  --gold: #FFB013;
+  --gold-light: #FFC83B;
+}
+
+*, ::before, ::after {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #2D3748;
+  background-color: #FAFAFA;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fdf5f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #640404;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #450202;
+}
+
+/* Hover Lift */
+.hover-lift {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 32px -10px rgba(100, 4, 4, 0.15);
+}
