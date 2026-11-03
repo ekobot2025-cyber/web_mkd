@@ -591,6 +591,43 @@ export default function AboutPage() {
               </div>
 
             </div>
+
+            {/* Bagan Alur Organisasi Resmi Pascasarjana UNCEN */}
+            <div className="bg-white p-6 sm:p-10 rounded-3xl border border-gray-200 shadow-md mt-10">
+              <div className="max-w-5xl mx-auto text-center space-y-4">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#640404]/10 text-[#640404] text-xs font-bold uppercase tracking-wider">
+                  <Sparkles className="w-3.5 h-3.5 text-[#FFB013]" />
+                  <span>Bagan Struktur Resmi</span>
+                </div>
+                <h4 className="text-lg sm:text-2xl font-black text-[#640404]">
+                  Bagan Alur Organisasi Program Pascasarjana Universitas Cenderawasih
+                </h4>
+                <p className="text-xs sm:text-sm text-gray-600 max-w-2xl mx-auto font-normal">
+                  Garis komando, koordinasi, konsultasi, unsur fungsional, dan unsur staf dalam tata kelola kelembagaan Program Pascasarjana UNCEN yang menaungi Program Studi Magister Keuangan Daerah (MKD).
+                </p>
+                
+                <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200 bg-gray-50/50 p-2 sm:p-4">
+                  <a
+                    href="/assets/img/photos/struktur-organisasi-pasca.png"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Klik untuk membuka bagan struktur resolusi penuh"
+                    className="block group cursor-zoom-in"
+                  >
+                    <img
+                      src="/assets/img/photos/struktur-organisasi-pasca.png"
+                      alt="Bagan Alur Organisasi Program Pascasarjana Universitas Cenderawasih"
+                      className="w-full h-auto object-contain rounded-xl max-h-[750px] mx-auto transition-transform duration-300 group-hover:scale-[1.01]"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+
+                <p className="text-xs text-gray-500 italic">
+                  * Sumber resmi: Program Pascasarjana Universitas Cenderawasih (pasca.uncen.ac.id). Klik gambar untuk membuka dalam resolusi penuh.
+                </p>
+              </div>
+            </div>
           </div>
         )}
 
