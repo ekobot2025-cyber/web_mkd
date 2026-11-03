@@ -5,13 +5,14 @@ export const dosenList = [
     nip: "197405102001121001",
     jabatan: "Koordinator Program Studi MKD",
     rank: "Lektor",
+    kategori: "Dosen Tetap UNCEN",
     bidang: "Perencanaan & Penganggaran Daerah (APBD)",
     pendidikan: "S3 Ilmu Akuntansi (Univ. Brawijaya)",
     details: [
       "NIP. 197405102001121001",
-      "Koordinator / Ketua Program Studi",
-      "Lektor",
-      "S1 : Universitas Brawijaya",
+      "Koordinator / Ketua Program Studi Magister Keuangan Daerah",
+      "Jabatan Fungsional: Lektor",
+      "S1 : Universitas Hasanuddin",
       "S2 : Universitas Gadjah Mada",
       "S3 : Universitas Brawijaya"
     ],
@@ -23,18 +24,19 @@ export const dosenList = [
   },
   {
     id: 2,
-    nama: "Prof. Dr. Agustinus Salle, SE., M.Si., Ak., CA.",
+    nama: "Prof. Dr. Agustinus Salle, SE, M.Ec",
     nip: "196808171994031002",
     jabatan: "Guru Besar Keuangan Daerah MKD",
     rank: "Guru Besar",
+    kategori: "Dosen Tetap UNCEN",
     bidang: "Keuangan Daerah & Kebijakan Fiskal",
     pendidikan: "S3 Ilmu Ekonomi (Univ. Brawijaya)",
     details: [
       "NIP. 196808171994031002",
-      "Guru Besar",
+      "Guru Besar / Profesor",
       "S1 : Universitas Hasanuddin",
-      "S2 : Universitas Gadjah Mada",
-      "S3 : Universitas Brawijaya"
+      "S2 : Universitas Gadjah Mada (M.Ec)",
+      "S3 : Universitas Brawijaya (Doktor)"
     ],
     email: "agustinus_salle@mkduncen.ac.id",
     foto: "/uploads/dosen_mkd/Agustinus Salle.png",
@@ -44,37 +46,16 @@ export const dosenList = [
   },
   {
     id: 3,
-    nama: "Dr. Paulus K. Allo Layuk, SE., M.Si., Ak., CA., CRP",
-    nip: "196705061997031001",
-    jabatan: "Dosen Pascasarjana MKD",
-    rank: "Lektor",
-    bidang: "Akuntansi Sektor Publik & Manajemen Risiko",
-    pendidikan: "S3 Ilmu Akuntansi (Univ. Brawijaya)",
-    details: [
-      "NIP. 196705061997031001",
-      "Penata - III/c",
-      "Lektor",
-      "S1 : Universitas Hasanuddin",
-      "S2 : Universitas Hasanuddin",
-      "S3 : Universitas Brawijaya"
-    ],
-    email: "paulus_allolayuk@mkduncen.ac.id",
-    foto: "/uploads/dosen_mkd/Paulus.png",
-    scholarUrl: "https://scholar.google.com/scholar?q=Paulus%20K.%20Allo%20Layuk%20Universitas%20Cenderawasih",
-    sintaUrl: "https://sinta.kemdikbud.go.id/authors?q=Paulus%20K.%20Allo%20Layuk",
-    scopusUrl: null
-  },
-  {
-    id: 4,
-    nama: "Prof. Dr. Baltasar Kambuaya, MBA",
+    nama: "Prof. Dr. Drs. B. Kambuaya., MBA",
     nip: "195609091986031001",
-    jabatan: "Guru Besar Keuangan & Manajemen",
+    jabatan: "Guru Besar Manajemen & Kebijakan Publik",
     rank: "Guru Besar",
+    kategori: "Dosen Tetap UNCEN",
     bidang: "Manajemen Stratejik & Kebijakan Publik",
-    pendidikan: "S3 Manajemen Bisnis",
+    pendidikan: "Doktor Manajemen Bisnis & MBA",
     details: [
       "NIP. 195609091986031001",
-      "Guru Besar",
+      "Guru Besar / Profesor",
       "Mantan Menteri Lingkungan Hidup RI",
       "Mantan Rektor Universitas Cenderawasih"
     ],
@@ -85,17 +66,63 @@ export const dosenList = [
     scopusUrl: null
   },
   {
+    id: 4,
+    nama: "Prof. Dr. Drs. Akbar Silo, MS",
+    nip: "196009211989031002",
+    jabatan: "Guru Besar Kebijakan & Manajemen Publik",
+    rank: "Guru Besar",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Manajemen Pemerintah Daerah & Kebijakan Publik",
+    pendidikan: "S3 Ilmu Sosial & Kebijakan Publik",
+    details: [
+      "Guru Besar / Profesor Pascasarjana Uncen",
+      "Pakar Kebijakan Publik & Otonomi Daerah Papua",
+      "Pengajar Manajemen Pemerintah Daerah"
+    ],
+    email: "akbar_silo@mkduncen.ac.id",
+    foto: "/uploads/photos/user.jpg",
+    scholarUrl: "https://scholar.google.com/scholar?q=Akbar+Silo+Universitas+Cenderawasih",
+    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors?q=Akbar+Silo",
+    scopusUrl: null
+  },
+  {
     id: 5,
-    nama: "Prof. Dr. Yohanis Rante, SE., M.Si.",
-    nip: "196005081987031003",
+    nama: "Prof. Dr. Arung Lamba, SE., M.Si",
+    nip: "196208151989031002",
     jabatan: "Guru Besar Ilmu Ekonomi",
     rank: "Guru Besar",
-    bidang: "Ekonomi Regional & Perencanaan Pembangunan",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Ekonomi Pembangunan & Keuangan Publik",
+    pendidikan: "S3 Ilmu Ekonomi (Univ. Hasanuddin)",
+    details: [
+      "Guru Besar / Profesor Pascasarjana Uncen",
+      "Pakar Ekonomi Pembangunan & Keuangan Publik",
+      "S1 : Universitas Cenderawasih",
+      "S2 : Universitas Gadjah Mada",
+      "S3 : Universitas Hasanuddin"
+    ],
+    email: "arung_lamba@mkduncen.ac.id",
+    foto: "/uploads/dosen_mkd/arung-lamba.png",
+    scholarUrl: "https://scholar.google.com/scholar?q=Arung+Lamba+Universitas+Cenderawasih",
+    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors?q=Arung+Lamba",
+    scopusUrl: null
+  },
+  {
+    id: 6,
+    nama: "Prof. Dr. Drs. Yohanes Rante, M.Si",
+    nip: "196005081987031003",
+    jabatan: "Guru Besar Ilmu Ekonomi Regional",
+    rank: "Guru Besar",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Ekonomi Regional & Perencanaan Pembangunan Daerah",
     pendidikan: "S3 Ilmu Ekonomi (Univ. Hasanuddin)",
     details: [
       "NIP. 196005081987031003",
-      "Guru Besar",
-      "Pakar Ekonomi Regional & Otonomi Papua"
+      "Guru Besar / Profesor Pascasarjana Uncen",
+      "Pakar Ekonomi Regional & Otonomi Khusus Papua",
+      "S1 : Universitas Hasanuddin",
+      "S2 : Universitas Hasanuddin",
+      "S3 : Universitas Hasanuddin"
     ],
     email: "yohanis.rante@mkduncen.ac.id",
     foto: "/uploads/dosen_mkd/Prof. Dr. Yohanis Rante, S.E., M.Si.png",
@@ -104,37 +131,17 @@ export const dosenList = [
     scopusUrl: null
   },
   {
-    id: 6,
-    nama: "Prof. Julius Ary Mollet, SE., MBA., MT.Dev., Ph.D",
-    nip: "196812141996011001",
-    jabatan: "Guru Besar Ekonomi Pembangunan",
-    rank: "Guru Besar",
-    bidang: "Ekonomi Pembangunan & Etnografi Papua",
-    pendidikan: "Doctor of Philosophy (Ph.D)",
-    details: [
-      "NIP. 196812141996011001",
-      "Guru Besar",
-      "S1 : Universitas Cenderawasih",
-      "S2 : MBA & MT.Dev (Australia)",
-      "S3 : Ph.D (Australia)"
-    ],
-    email: "julius.mollet@mkduncen.ac.id",
-    foto: "/uploads/dosen_mkd/Prof Arry Molet.png",
-    scholarUrl: "https://scholar.google.com/citations?hl=en&user=KdgiYWMAAAAJ",
-    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/6030265",
-    scopusUrl: null
-  },
-  {
     id: 7,
-    nama: "Prof. Dr. Elsyan R. Marlissa, SE., M.Si.",
+    nama: "Prof. Dr. Elsyan R. Marlissa, SE., M.Si",
     nip: "197101121998032001",
     jabatan: "Guru Besar Ilmu Ekonomi",
     rank: "Guru Besar",
+    kategori: "Dosen Tetap UNCEN",
     bidang: "Kebijakan Moneter & Perencanaan Pembangunan",
     pendidikan: "S3 Ilmu Ekonomi (Univ. Hasanuddin)",
     details: [
       "NIP. 197101121998032001",
-      "Guru Besar",
+      "Guru Besar / Profesor",
       "S1 : Universitas Cenderawasih",
       "S2 : Universitas Hasanuddin",
       "S3 : Universitas Hasanuddin"
@@ -147,11 +154,34 @@ export const dosenList = [
   },
   {
     id: 8,
-    nama: "Dr. Meinarni Asnawi, SE., M.Si., Ak., CA.",
+    nama: "Prof. Julius A. Mollet, SE., MBA., MT.Dev., Dip.LED., Ph.D",
+    nip: "196812141996011001",
+    jabatan: "Guru Besar Ekonomi Pembangunan",
+    rank: "Guru Besar",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Ekonomi Pembangunan & Etnografi Papua",
+    pendidikan: "Doctor of Philosophy (Ph.D, Australia)",
+    details: [
+      "NIP. 196812141996011001",
+      "Guru Besar / Profesor",
+      "S1 : Universitas Cenderawasih",
+      "S2 : MBA & MT.Dev (Australia)",
+      "S3 : Ph.D (Australia)"
+    ],
+    email: "julius.mollet@mkduncen.ac.id",
+    foto: "/uploads/dosen_mkd/Prof Arry Molet.png",
+    scholarUrl: "https://scholar.google.com/citations?hl=en&user=KdgiYWMAAAAJ",
+    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/6030265",
+    scopusUrl: null
+  },
+  {
+    id: 9,
+    nama: "Dr. Meinarni Asnawi, SE., M.Si., Ak, CBV, CMA, CRP",
     nip: "197005121996032001",
     jabatan: "Dosen Pascasarjana MKD",
     rank: "Lektor Kepala",
-    bidang: "Sistem Pengendalian Manajemen & Akuntansi Publik",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Sistem Pengendalian Manajemen & Akuntansi Pemerintah",
     pendidikan: "S3 Ilmu Akuntansi (Univ. Brawijaya)",
     details: [
       "NIP. 197005121996032001",
@@ -162,23 +192,46 @@ export const dosenList = [
     ],
     email: "meinarni.asnawi@mkduncen.ac.id",
     foto: "/uploads/dosen_mkd/Meinarni Asnawi.png",
-    scholarUrl: "https://scholar.google.com/citations?hl=en&user=Jgrd7qQAAAAJ&view_op=list_works&sortby=pubdate",
+    scholarUrl: "https://scholar.google.com/citations?hl=en&user=Jgrd7qQAAAAJ",
     sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/5978347",
     scopusUrl: null
   },
   {
-    id: 9,
-    nama: "Siti Rofingatun, SE., M.Si., Ak., CA.",
+    id: 10,
+    nama: "Dr. Paulus K. Allo Layuk, SE, M.Si, Ak, CA, CRP",
+    nip: "196705061997031001",
+    jabatan: "Dosen Pascasarjana MKD",
+    rank: "Lektor",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Akuntansi Sektor Publik & Manajemen Risiko Daerah",
+    pendidikan: "S3 Ilmu Akuntansi (Univ. Brawijaya)",
+    details: [
+      "NIP. 196705061997031001",
+      "Lektor",
+      "S1 : Universitas Hasanuddin",
+      "S2 : Universitas Hasanuddin",
+      "S3 : Universitas Brawijaya"
+    ],
+    email: "paulus_allolayuk@mkduncen.ac.id",
+    foto: "/uploads/dosen_mkd/Paulus.png",
+    scholarUrl: "https://scholar.google.com/scholar?q=Paulus+K.+Allo+Layuk+Universitas+Cenderawasih",
+    sintaUrl: "https://sinta.kemdikbud.go.id/authors?q=Paulus+K.+Allo+Layuk",
+    scopusUrl: null
+  },
+  {
+    id: 11,
+    nama: "Dr. Siti Rofingatun, SE., MM., CBV., CGBA",
     nip: "197104231997022001",
     jabatan: "Dosen Pascasarjana MKD",
     rank: "Lektor Kepala",
-    bidang: "Manajemen Keuangan Daerah",
-    pendidikan: "S2 Magister Akuntansi (UGM)",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Manajemen Keuangan Daerah & Penilaian Bisnis",
+    pendidikan: "S3 Ilmu Manajemen / Keuangan",
     details: [
       "NIP. 197104231997022001",
       "Lektor Kepala",
-      "S1 : Universitas Gadjah Mada",
-      "S2 : Universitas Gadjah Mada"
+      "Certified Business Valuer (CBV)",
+      "Certified Global Business Analyst (CGBA)"
     ],
     email: "siti.rofingatun@mkduncen.ac.id",
     foto: "/uploads/dosen_mkd/Siti Rofingatun.png",
@@ -187,100 +240,19 @@ export const dosenList = [
     scopusUrl: null
   },
   {
-    id: 10,
-    nama: "Dr. Halomoan Hutajulu, SE., M.Si.",
-    nip: "197911292005011002",
-    jabatan: "Dosen Pascasarjana MKD",
-    rank: "Lektor Kepala",
-    bidang: "Analisis Ekonomi Pembangunan Daerah",
-    pendidikan: "S3 Ilmu Ekonomi",
-    details: [
-      "NIP. 197911292005011002",
-      "Lektor Kepala",
-      "S1 : Universitas Cenderawasih",
-      "S2 : Universitas Gadjah Mada",
-      "S3 : Universitas Hasanuddin"
-    ],
-    email: "halomoan.h@mkduncen.ac.id",
-    foto: "/uploads/dosen_mkd/Halomoan Hutadjulu.png",
-    scholarUrl: "https://scholar.google.com/scholar?q=Halomoan+Hutajulu+Universitas+Cenderawasih",
-    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/5996663",
-    scopusUrl: null
-  },
-  {
-    id: 11,
-    nama: "Dr. Ida Ayu Purba Riani, SE., M.Si.",
-    nip: "196603241993032001",
-    jabatan: "Dosen Pascasarjana MKD",
-    rank: "Lektor",
-    bidang: "Manajemen Aset & Barang Milik Daerah (BMD)",
-    pendidikan: "S3 Ilmu Ekonomi",
-    details: [
-      "NIP. 196603241993032001",
-      "Lektor",
-      "S1 : Universitas Udayana",
-      "S2 : Universitas Gadjah Mada",
-      "S3 : Universitas Brawijaya"
-    ],
-    email: "ida.ayu@mkduncen.ac.id",
-    foto: "/uploads/dosen_mkd/Ida Ayu Purba.png",
-    scholarUrl: "https://scholar.google.com/citations?user=A_rQfe4AAAAJ&hl=en&oi=ao",
-    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/6652034",
-    scopusUrl: null
-  },
-  {
     id: 12,
-    nama: "Robert M.WST. Marbun, SE., M.A.",
-    nip: "197403132000121002",
-    jabatan: "Dosen Pascasarjana MKD",
-    rank: "Lektor",
-    bidang: "Keuangan Negara & Daerah",
-    pendidikan: "S2 Master of Arts",
-    details: [
-      "NIP. 197403132000121002",
-      "Lektor",
-      "S1 : Universitas Cenderawasih",
-      "S2 : Master of Arts"
-    ],
-    email: "robert.marbun@mkduncen.ac.id",
-    foto: "/uploads/dosen_mkd/Robert Marbun.png",
-    scholarUrl: "https://scholar.google.com/citations?user=YCzFT6oAAAAJ&hl=en&oi=ao",
-    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/5977043",
-    scopusUrl: null
-  },
-  {
-    id: 13,
-    nama: "Westim Ratang, SE., M.Si.",
-    nip: "197503122002121002",
-    jabatan: "Dosen Pascasarjana MKD",
-    rank: "Lektor",
-    bidang: "Akuntansi Sektor Publik & Audit Keuangan",
-    pendidikan: "S2 Magister Akuntansi",
-    details: [
-      "NIP. 197503122002121002",
-      "Lektor",
-      "S1 : Universitas Cenderawasih",
-      "S2 : Universitas Hasanuddin"
-    ],
-    email: "westim.ratang@mkduncen.ac.id",
-    foto: "/uploads/dosen_mkd/westim.png",
-    scholarUrl: "https://scholar.google.com/citations?user=CqBVJMoAAAAJ",
-    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/5978072",
-    scopusUrl: null
-  },
-  {
-    id: 14,
-    nama: "Jhon Urasti Blesia, SE., M.Si., Ph.D.",
+    nama: "Jhon U. Blesia, SE., M.Prof.Acc., Ph.D., ASA",
     nip: "198204172008011005",
     jabatan: "Dosen Pascasarjana MKD",
     rank: "Lektor Kepala",
+    kategori: "Dosen Tetap UNCEN",
     bidang: "Akuntansi Sektor Publik & Tata Kelola Keuangan",
-    pendidikan: "Doctor of Philosophy (Ph.D)",
+    pendidikan: "Doctor of Philosophy (Ph.D, Australia)",
     details: [
       "NIP. 198204172008011005",
       "Lektor Kepala",
       "S1 : Universitas Cenderawasih",
-      "S2 : Universitas Gadjah Mada",
+      "S2 : Master of Professional Accounting",
       "S3 : Ph.D (Australia)"
     ],
     email: "jhon.blesia@mkduncen.ac.id",
@@ -290,112 +262,55 @@ export const dosenList = [
     scopusUrl: null
   },
   {
-    id: 15,
-    nama: "Vince Tebay, SE., M.Si.",
-    nip: "198102182008122001",
+    id: 13,
+    nama: "Dr. Westim Ratang, SE., M.Si",
+    nip: "197503122002121002",
     jabatan: "Dosen Pascasarjana MKD",
     rank: "Lektor",
-    bidang: "Manajemen Pemerintah Daerah",
-    pendidikan: "S2 Magister Sains",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Akuntansi Sektor Publik & Pemeriksaan Keuangan",
+    pendidikan: "S3 Ilmu Akuntansi",
     details: [
-      "NIP. 198102182008122001",
-      "Lektor",
-      "S1 : Universitas Cenderawasih",
-      "S2 : Universitas Hasanuddin"
-    ],
-    email: "vince.tebay@mkduncen.ac.id",
-    foto: "/uploads/dosen_mkd/vince tebay.png",
-    scholarUrl: "https://scholar.google.com/citations?hl=id&user=rsGNOBEAAAAJ",
-    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/5978048",
-    scopusUrl: null
-  },
-  {
-    id: 16,
-    nama: "Adolf Z.D. Siahay, SE., M.Si.",
-    nip: "196603081993031002",
-    jabatan: "Dosen Pascasarjana MKD",
-    rank: "Lektor Kepala",
-    bidang: "Keuangan Daerah & Ekonomi Regional",
-    pendidikan: "S2 Magister Sains",
-    details: [
-      "NIP. 196603081993031002",
-      "Lektor Kepala",
-      "S1 : Universitas Cenderawasih",
-      "S2 : Universitas Gadjah Mada"
-    ],
-    email: "adolf_siahay@mkduncen.ac.id",
-    foto: "/uploads/dosen_mkd/Adolf.png",
-    scholarUrl: "https://scholar.google.com/scholar?q=Adolf+Siahay+Universitas+Cenderawasih",
-    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/6768524",
-    scopusUrl: null
-  },
-  {
-    id: 17,
-    nama: "Alfiana Antoh, SE., M.Si.",
-    nip: "197805122003122001",
-    jabatan: "Dosen Pascasarjana MKD",
-    rank: "Lektor",
-    bidang: "Akuntansi Sektor Publik & Perpajakan Daerah",
-    pendidikan: "S2 Magister Sains",
-    details: [
-      "NIP. 197805122003122001",
-      "Lektor",
-      "S1 : Universitas Cenderawasih",
-      "S2 : Universitas Hasanuddin"
-    ],
-    email: "alfiana_antoh@mkduncen.ac.id",
-    foto: "/uploads/dosen_mkd/Alfiana Antoh.png",
-    scholarUrl: "https://scholar.google.com/citations?user=CzKrneoAAAAJ&hl=id&oi=ao",
-    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/6737859",
-    scopusUrl: null
-  },
-  {
-    id: 18,
-    nama: "Maylen K.P. Kambuaya, SE., M.Si.",
-    nip: "198305282008122002",
-    jabatan: "Dosen Pascasarjana MKD",
-    rank: "Lektor",
-    bidang: "Manajemen Keuangan & Kebijakan Publik",
-    pendidikan: "S2 Magister Sains",
-    details: [
-      "NIP. 198305282008122002",
-      "Lektor",
-      "S1 : Universitas Cenderawasih",
-      "S2 : Universitas Gadjah Mada"
-    ],
-    email: "maylen_kambuaya@mkduncen.ac.id",
-    foto: "/uploads/dosen_mkd/Maylen.png",
-    scholarUrl: "https://scholar.google.com/citations?user=noM7dQkAAAAJ&hl=id&oi=ao",
-    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/6727639",
-    scopusUrl: null
-  },
-  {
-    id: 19,
-    nama: "Dr. Risky Novan Ngutra, SE., M.Si.",
-    nip: "198411222008121002",
-    jabatan: "Dosen Pascasarjana MKD",
-    rank: "Lektor",
-    bidang: "Ekonomi Regional & Keuangan Publik",
-    pendidikan: "S3 Ilmu Ekonomi",
-    details: [
-      "NIP. 198411222008121002",
+      "NIP. 197503122002121002",
       "Lektor",
       "S1 : Universitas Cenderawasih",
       "S2 : Universitas Hasanuddin",
-      "S3 : Universitas Hasanuddin"
+      "S3 : Doktor Ilmu Akuntansi"
     ],
-    email: "novan_ngutra@mkduncen.ac.id",
-    foto: "/uploads/dosen_mkd/Novan Ngutra.png",
-    scholarUrl: "https://scholar.google.com/citations?user=VgStqaUAAAAJ&hl=en&oi=sra",
-    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/5990441",
+    email: "westim.ratang@mkduncen.ac.id",
+    foto: "/uploads/dosen_mkd/westim.png",
+    scholarUrl: "https://scholar.google.com/citations?user=CqBVJMoAAAAJ",
+    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/5978072",
     scopusUrl: null
   },
   {
-    id: 20,
-    nama: "Dr. Yundy Hafizrianda, SE., M.Si.",
+    id: 14,
+    nama: "Dr. Quincy F. Kambuaya, SE., M.Sc",
+    nip: "198005152006041003",
+    jabatan: "Dosen Pascasarjana MKD",
+    rank: "Lektor",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Manajemen Aset & Keuangan Daerah",
+    pendidikan: "S3 Ilmu Ekonomi (Univ. Brawijaya)",
+    details: [
+      "Lektor",
+      "S1 : Universitas Cenderawasih",
+      "S2 : Master of Science (M.Sc)",
+      "S3 : Universitas Brawijaya"
+    ],
+    email: "quincy_kambuaya@mkduncen.ac.id",
+    foto: "/uploads/photos/user.jpg",
+    scholarUrl: "https://scholar.google.com/scholar?q=Quincy+F.+Kambuaya+Universitas+Cenderawasih",
+    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/7015803",
+    scopusUrl: null
+  },
+  {
+    id: 15,
+    nama: "Dr. Yundy Hafizrianda, SE., M.Si",
     nip: "196606291991031004",
     jabatan: "Dosen Pascasarjana MKD",
     rank: "Lektor",
+    kategori: "Dosen Tetap UNCEN",
     bidang: "Ekonomi Pembangunan & Kebijakan Daerah",
     pendidikan: "S3 Ilmu Ekonomi",
     details: [
@@ -412,23 +327,193 @@ export const dosenList = [
     scopusUrl: null
   },
   {
-    id: 21,
-    nama: "Dr. Quincy F. Kambuaya, SE., M.Si.",
-    nip: "198005152006041003",
+    id: 16,
+    nama: "Dr. Ida Ayu Purba Riani, SE, M.Si",
+    nip: "196603241993032001",
     jabatan: "Dosen Pascasarjana MKD",
     rank: "Lektor",
-    bidang: "Manajemen Aset & Keuangan Daerah",
-    pendidikan: "S3 Ilmu Ekonomi / Keuangan Daerah",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Manajemen Aset & Barang Milik Daerah (BMD)",
+    pendidikan: "S3 Ilmu Ekonomi (Univ. Brawijaya)",
     details: [
+      "NIP. 196603241993032001",
       "Lektor",
-      "S1 : Universitas Cenderawasih",
+      "S1 : Universitas Udayana",
       "S2 : Universitas Gadjah Mada",
       "S3 : Universitas Brawijaya"
     ],
-    email: "quincy_kambuaya@mkduncen.ac.id",
-    foto: "/uploads/photos/user.jpg",
-    scholarUrl: "https://scholar.google.com/scholar?q=Quincy+F.+Kambuaya+Universitas+Cenderawasih",
-    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/7015803",
+    email: "ida.ayu@mkduncen.ac.id",
+    foto: "/uploads/dosen_mkd/Ida Ayu Purba.png",
+    scholarUrl: "https://scholar.google.com/citations?user=A_rQfe4AAAAJ&hl=en&oi=ao",
+    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/6652034",
     scopusUrl: null
+  },
+  {
+    id: 17,
+    nama: "Dr. Riski Novan Ngutra, SE, M.Si",
+    nip: "198411222008121002",
+    jabatan: "Dosen Pascasarjana MKD",
+    rank: "Lektor",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Ekonomi Regional & Keuangan Publik",
+    pendidikan: "S3 Ilmu Ekonomi (Univ. Hasanuddin)",
+    details: [
+      "NIP. 198411222008121002",
+      "Lektor",
+      "S1 : Universitas Cenderawasih",
+      "S2 : Universitas Hasanuddin",
+      "S3 : Universitas Hasanuddin"
+    ],
+    email: "novan_ngutra@mkduncen.ac.id",
+    foto: "/uploads/dosen_mkd/Novan Ngutra.png",
+    scholarUrl: "https://scholar.google.com/citations?user=VgStqaUAAAAJ&hl=en&oi=sra",
+    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/5990441",
+    scopusUrl: null
+  },
+  {
+    id: 18,
+    nama: "Dr. Arius A. Kambu, SE., M.Si",
+    nip: "197808242005011003",
+    jabatan: "Dosen Pascasarjana MKD",
+    rank: "Lektor",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Ekonomi Pembangunan & Keuangan Daerah",
+    pendidikan: "S3 Ilmu Ekonomi",
+    details: [
+      "Lektor Pascasarjana Uncen",
+      "Pakar Ekonomi Sumber Daya & Keuangan Daerah Papua",
+      "S1 : Universitas Cenderawasih",
+      "S2 : Universitas Hasanuddin",
+      "S3 : Doktor Ilmu Ekonomi"
+    ],
+    email: "arius_kambu@mkduncen.ac.id",
+    foto: "/uploads/photos/user.jpg",
+    scholarUrl: "https://scholar.google.com/scholar?q=Arius+Kambu+Universitas+Cenderawasih",
+    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors?q=Arius+Kambu",
+    scopusUrl: null
+  },
+  {
+    id: 19,
+    nama: "Dr. Adolf Z.D. Siahay, SE., M.Si., Ak, CA",
+    nip: "196603081993031002",
+    jabatan: "Dosen Pascasarjana MKD",
+    rank: "Lektor Kepala",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Keuangan Daerah & Ekonomi Regional",
+    pendidikan: "S3 Ilmu Ekonomi",
+    details: [
+      "NIP. 196603081993031002",
+      "Lektor Kepala",
+      "Akuntan (Ak, CA)",
+      "S1 : Universitas Cenderawasih",
+      "S2 : Universitas Gadjah Mada"
+    ],
+    email: "adolf_siahay@mkduncen.ac.id",
+    foto: "/uploads/dosen_mkd/Adolf.png",
+    scholarUrl: "https://scholar.google.com/scholar?q=Adolf+Siahay+Universitas+Cenderawasih",
+    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/6768524",
+    scopusUrl: null
+  },
+  {
+    id: 20,
+    nama: "Dr. Halomoan Hutajulu, SE., M.Si",
+    nip: "197911292005011002",
+    jabatan: "Dosen Pascasarjana MKD",
+    rank: "Lektor Kepala",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Analisis Ekonomi Pembangunan Daerah",
+    pendidikan: "S3 Ilmu Ekonomi (Univ. Hasanuddin)",
+    details: [
+      "NIP. 197911292005011002",
+      "Lektor Kepala",
+      "S1 : Universitas Cenderawasih",
+      "S2 : Universitas Gadjah Mada",
+      "S3 : Universitas Hasanuddin"
+    ],
+    email: "halomoan.h@mkduncen.ac.id",
+    foto: "/uploads/dosen_mkd/Halomoan Hutadjulu.png",
+    scholarUrl: "https://scholar.google.com/scholar?q=Halomoan+Hutajulu+Universitas+Cenderawasih",
+    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/5996663",
+    scopusUrl: null
+  },
+  {
+    id: 21,
+    nama: "Dr. Maylen K.P Kambuaya, SE., M.Si., Ak., CA., CAP",
+    nip: "198305282008122002",
+    jabatan: "Dosen Pascasarjana MKD",
+    rank: "Lektor",
+    kategori: "Dosen Tetap UNCEN",
+    bidang: "Manajemen Keuangan & Kebijakan Akuntansi",
+    pendidikan: "S3 Ilmu Akuntansi / Keuangan",
+    details: [
+      "NIP. 198305282008122002",
+      "Lektor",
+      "S1 : Universitas Cenderawasih",
+      "S2 : Universitas Gadjah Mada",
+      "Akuntan Profesional: Ak, CA, CAP"
+    ],
+    email: "maylen_kambuaya@mkduncen.ac.id",
+    foto: "/uploads/dosen_mkd/Maylen.png",
+    scholarUrl: "https://scholar.google.com/citations?user=noM7dQkAAAAJ&hl=id&oi=ao",
+    sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors/profile/6727639",
+    scopusUrl: null
+  }
+];
+
+// 6 Dosen Tamu Resmi (Sesuai Brosur MKD UNCEN)
+export const dosenTamuList = [
+  {
+    id: 101,
+    nama: "Prof. Dr. Gagaring Pagalung, SE., M.Si, Ak, CA",
+    instansi: "UNIVERSITAS HASANUDDIN MAKASSAR",
+    rank: "Guru Besar",
+    bidang: "Akuntansi Sektor Publik & Tata Kelola Keuangan",
+    kategori: "Dosen Tamu Mitra",
+    foto: "/uploads/photos/user.jpg"
+  },
+  {
+    id: 102,
+    nama: "Prof. Dr. Syarifuddin, SE., M.Sc., Soc, Ak, CA., CTA., ACPA., ICWM",
+    instansi: "UNIVERSITAS HASANUDDIN MAKASSAR",
+    rank: "Guru Besar",
+    bidang: "Akuntansi Manajemen & Pemeriksaan Keuangan",
+    kategori: "Dosen Tamu Mitra",
+    foto: "/uploads/photos/user.jpg"
+  },
+  {
+    id: 103,
+    nama: "Dr. Ratna Ayu Damayanti, SE., M.Soc., Sc., Ak., CA., CRA., CRP",
+    instansi: "UNIVERSITAS HASANUDDIN MAKASSAR",
+    rank: "Lektor Kepala",
+    bidang: "Akuntansi Keperilakuan & Keuangan Daerah",
+    kategori: "Dosen Tamu Mitra",
+    foto: "/uploads/photos/user.jpg"
+  },
+  {
+    id: 104,
+    nama: "Dr. Haryanto, SE., M.Com",
+    instansi: "UNIVERSITAS HASANUDDIN MAKASSAR",
+    rank: "Lektor Kepala",
+    bidang: "Manajemen Keuangan Daerah & Ekonometrika",
+    kategori: "Dosen Tamu Mitra",
+    foto: "/uploads/photos/user.jpg"
+  },
+  {
+    id: 105,
+    nama: "Dr. Ferdinandus Christian, SE., MM",
+    instansi: "UNIVERSITAS OTOW & GEISLER PAPUA",
+    rank: "Lektor Kepala",
+    bidang: "Manajemen Stratejik & Ekonomi Pembangunan Papua",
+    kategori: "Dosen Tamu Mitra",
+    foto: "/uploads/photos/user.jpg"
+  },
+  {
+    id: 106,
+    nama: "Dr. Sidik Budiono, ME",
+    instansi: "UNIVERSITAS KRISTEN INDONESIA JAKARTA",
+    rank: "Lektor Kepala",
+    bidang: "Ekonomi Moneter & Analisis Kebijakan Fiskal",
+    kategori: "Dosen Tamu Mitra",
+    foto: "/uploads/photos/user.jpg"
   }
 ];

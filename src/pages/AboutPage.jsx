@@ -53,25 +53,30 @@ export default function AboutPage() {
 
   const missions = [
     {
-      num: "01",
-      title: "Pendidikan Berkualitas & Etika Akademik",
-      desc: "Menyelenggarakan pendidikan pascasarjana dan penyebarluasan ilmu bidang pengelolaan keuangan daerah yang berkualitas tinggi serta menjunjung tinggi nilai-nilai etika akademik profesional."
+      num: "A",
+      title: "Pendidikan & Penyebarluasan Ilmu Keuangan & Aset",
+      desc: "Menyelenggarakan pendidikan dan penyebarluasan ilmu bidang keuangan dan aset daerah yang berkualitas dan menjunjung tinggi etika akademik."
     },
     {
-      num: "02",
-      title: "Riset Empiris & Publikasi Ilmiah",
-      desc: "Mengembangkan kapasitas kepakaran dosen dan mahasiswa melalui riset empiris serta menyebarluaskan karya ilmiah di berbagai media publikasi nasional (SINTA) dan internasional terindeks."
+      num: "B",
+      title: "Riset Kepakaran & Rujukan Keuangan Daerah",
+      desc: "Mengembangkan kapasitas kepakaran melalui penelitian menyebarluaskan karya ilmiah, serta menjadi rujukan ilmu bidang keuangan dan asset daerah."
     },
     {
-      num: "03",
-      title: "Rujukan Keuangan Daerah Berbasis Kearifan Lokal",
-      desc: "Menjadi rujukan utama ilmu bidang pengelolaan keuangan daerah yang berbasis pada kearifan lokal pembangunan dan tata kelola otonomi khusus di Tanah Papua."
-    },
-    {
-      num: "04",
-      title: "Kolaborasi Antar Lembaga & Kemitraan Strategis",
-      desc: "Mengembangkan kemitraan strategis dengan kementerian, pemerintah daerah provinsi dan kabupaten/kota se-Tanah Papua, BPK RI, BPKP, serta institusi riset tingkat nasional dan internasional."
+      num: "C",
+      title: "Kolaborasi Kelembagaan Profesional",
+      desc: "Mengembangkan kolaborasi dengan lembaga profesional di tingkat lokal, regional, nasional dan internasional melaksanakan pendidikan, penelitian dan pengabdian di bidang keuangan dan aset daerah."
     }
+  ];
+
+  const goals = [
+    "Menghasilkan lulusan yang menguasai keilmuan dalam bidang manajemen keuangan daerah, sesuai dengan perkembangan ilmu dan tuntutan akuntabilitas pengelolaan keuangan pemerintahan.",
+    "Meningkatkan kapasitas mahasiswa dalam pengembangan pengetahuan melalui proses pengajaran dan sistem yang terintegrasi dan kolaboratif.",
+    "Tercapainya peningkatan kapasitas sumberdaya manusia yang memiliki pengetahuan teoritik dan kompetensi kerja sehingga mampu mengenali dan mendesain alternatif pemecahan dan merumuskan kebijakan masalah keuangan daerah.",
+    "Meningkatkan dan mengembangkan metode alternatif dalam penyelesaian masalah pengelolaan keuangan daerah melalui pendekatan ilmiah.",
+    "Mengembangkan penelitian yang mengacu kepada prinsip dan asas pengelolaan keuangan daerah yang memperhatikan Good Governance, dan New Public Management.",
+    "Meningkatkan kapasitas dalam pengembangan pengetahuan melalui penelitian yang bermutu dan peningkatan publikasi ilmiah yang bermanfaat bagi pembangunan daerah.",
+    "Mengembangkan kolaborasi dengan pemerintah dan lembaga lain dalam dan luar negeri dalam memajukan pengelolaan keuangan daerah."
   ];
 
   const coreFeatures = [
@@ -263,27 +268,66 @@ export default function AboutPage() {
             <div className="relative bg-gradient-to-tr from-[#FFFDF8] via-[#FAF6EE] to-white p-8 sm:p-14 rounded-3xl border border-yellow-200/80 shadow-lg overflow-hidden">
               <div className="absolute top-0 right-0 w-80 h-80 bg-[#FFB013]/10 rounded-full blur-3xl pointer-events-none" />
               
-              <div className="max-w-3xl mx-auto text-center space-y-5 relative z-10">
+              <div className="max-w-4xl mx-auto text-center space-y-5 relative z-10">
                 <div className="inline-flex p-3.5 bg-[#640404] text-[#FFB013] rounded-2xl shadow-md">
                   <Compass className="w-8 h-8" />
                 </div>
-                <div className="inline-block px-3 py-1 rounded-full bg-[#640404]/10 text-[#640404] text-xs font-black tracking-wider uppercase">
+                <div className="inline-block px-3.5 py-1 rounded-full bg-[#640404]/10 text-[#640404] text-xs font-black tracking-wider uppercase">
                   Visi Program Studi
                 </div>
-                <blockquote className="text-xl sm:text-2xl lg:text-3xl font-black text-[#640404] italic leading-relaxed">
-                  "Menjadi program studi yang unggul dan profesional dalam bidang pengelolaan keuangan daerah berkearifan budaya dan berwawasan lingkungan."
+                <blockquote className="text-xl sm:text-2xl lg:text-3xl font-black text-[#640404] leading-relaxed tracking-tight">
+                  "MENJADI PUSAT UNGGULAN PENDIDIKAN BIDANG KEUANGAN DAN ASET DAERAH DI ERA OTONOMI KHUSUS PAPUA"
                 </blockquote>
-                <p className="text-xs sm:text-sm text-gray-600 max-w-xl mx-auto">
-                  Ditetapkan sebagai panduan arah pengembangan kurikulum, riset terapan, dan pengabdian masyarakat di lingkungan Program Pascasarjana Universitas Cenderawasih.
+                <p className="text-xs sm:text-sm text-gray-600 max-w-2xl mx-auto font-normal">
+                  Visi resmi Program Studi Magister Keuangan Daerah (MKD) Program Pascasarjana Universitas Cenderawasih dalam menjawab tantangan tata kelola keuangan dan pengelolaan aset publik di Tanah Papua.
                 </p>
               </div>
             </div>
 
-            {/* Misi Section */}
+            {/* Legalitas & Akreditasi Strip */}
+            <div className="bg-gradient-to-r from-[#640404] via-[#7B0808] to-[#450202] text-white p-6 sm:p-8 rounded-3xl shadow-lg border-2 border-[#FFB013]/30">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                <div className="flex items-center gap-4">
+                  <div className="w-14 h-14 rounded-2xl bg-[#FFB013] text-[#450202] flex items-center justify-center flex-shrink-0 shadow-md">
+                    <ShieldCheck className="w-8 h-8" />
+                  </div>
+                  <div>
+                    <span className="text-xs font-black text-[#FFB013] uppercase tracking-wider block">
+                      Legalitas Pendirian
+                    </span>
+                    <h3 className="text-base sm:text-lg font-black text-white">
+                      SK DIKTI NO. 134/E/O/2012
+                    </h3>
+                    <p className="text-xs text-gray-300">
+                      Izin Operasional Penyelenggaraan Program Magister (S2)
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-4 md:border-l md:border-white/20 md:pl-6">
+                  <div className="w-14 h-14 rounded-2xl bg-white/10 text-[#FFB013] flex items-center justify-center flex-shrink-0 border border-white/20">
+                    <Award className="w-8 h-8" />
+                  </div>
+                  <div>
+                    <span className="text-xs font-black text-[#FFB013] uppercase tracking-wider block">
+                      Status Akreditasi BAN-PT
+                    </span>
+                    <h3 className="text-base sm:text-lg font-black text-white">
+                      TER-AKREDITASI "B"
+                    </h3>
+                    <p className="text-xs text-gray-300 font-mono">
+                      No. 13811/SK/BAN-PT/Ak-PPJ/M/XII/2021
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Misi Section (3 Misi Resmi Sesuai Brosur) */}
             <div>
-              <div className="text-center max-w-2xl mx-auto mb-12">
+              <div className="text-center max-w-2xl mx-auto mb-10">
                 <span className="text-xs font-black text-[#640404] uppercase tracking-widest block mb-1">
-                  Empat Pilar Utama
+                  Arah Kebijakan Strategis
                 </span>
                 <h2 className="text-2xl sm:text-3xl font-black text-[#640404] tracking-tight">
                   Misi Program Studi MKD
@@ -291,17 +335,17 @@ export default function AboutPage() {
                 <div className="w-16 h-1 bg-[#FFB013] mx-auto mt-3 rounded-full"></div>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {missions.map((m, idx) => (
                   <div
                     key={idx}
-                    className="bg-white p-6 sm:p-8 rounded-2xl border border-gray-200 shadow-sm hover:border-[#640404] hover:shadow-md transition-all flex items-start gap-5 group"
+                    className="bg-white p-6 sm:p-7 rounded-3xl border border-gray-200 shadow-sm hover:border-[#640404] hover:shadow-xl transition-all flex flex-col justify-between group hover:-translate-y-1"
                   >
-                    <span className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-[#640404] to-[#880808] text-[#FFB013] font-black text-lg flex items-center justify-center flex-shrink-0 shadow-md group-hover:scale-105 transition-transform">
-                      {m.num}
-                    </span>
-                    <div className="space-y-2">
-                      <h3 className="text-base font-bold text-gray-900 group-hover:text-[#640404] transition-colors">
+                    <div className="space-y-4">
+                      <span className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-[#640404] to-[#880808] text-[#FFB013] font-black text-lg flex items-center justify-center flex-shrink-0 shadow-md group-hover:scale-105 transition-transform">
+                        {m.num}
+                      </span>
+                      <h3 className="text-base font-black text-gray-900 group-hover:text-[#640404] transition-colors leading-snug">
                         {m.title}
                       </h3>
                       <p className="text-xs sm:text-sm text-gray-600 leading-relaxed font-normal">
@@ -313,28 +357,36 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Tujuan & Sasaran */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
-              <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl border border-gray-200 shadow-xs space-y-4">
-                <div className="p-3 bg-red-50 text-[#640404] rounded-xl w-fit">
-                  <Target className="w-6 h-6" />
+            {/* Tujuan Program Studi (7 Poin Resmi Sesuai Brosur) */}
+            <div className="bg-gradient-to-br from-gray-50 via-white to-gray-50 p-8 sm:p-12 rounded-3xl border border-gray-200 shadow-xs space-y-8">
+              <div className="text-center max-w-3xl mx-auto space-y-2">
+                <div className="p-3 bg-red-50 text-[#640404] rounded-2xl w-fit mx-auto shadow-xs">
+                  <Target className="w-7 h-7" />
                 </div>
-                <h3 className="text-lg font-black text-[#640404]">Tujuan Pendidikan S2</h3>
+                <h3 className="text-2xl font-black text-[#640404]">Tujuan Program Studi MKD</h3>
                 <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-                  Menghasilkan magister yang memiliki integritas tinggi dan menguasai kompetensi teoritis maupun praktis dalam bidang perencanaan anggaran, akuntansi sektor publik, evaluasi kebijakan fiskal, dan audit kepatuhan keuangan negara/daerah berbasis bukti nyata.
+                  Pembukaan Program Studi Magister Keuangan Daerah di lingkungan Universitas Cenderawasih bertujuan untuk menghasilkan lulusan yang memiliki kemampuan dan menguasai kompetensi keilmuan dalam bidang keuangan:
                 </p>
+                <div className="w-16 h-1 bg-[#FFB013] mx-auto rounded-full"></div>
               </div>
 
-              <div className="bg-gradient-to-br from-yellow-50/40 to-white p-8 rounded-2xl border border-yellow-200/80 shadow-xs space-y-4">
-                <div className="p-3 bg-yellow-100 text-[#D99100] rounded-xl w-fit">
-                  <Award className="w-6 h-6" />
-                </div>
-                <h3 className="text-lg font-black text-[#640404]">Sasaran Strategis</h3>
-                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-                  Mewujudkan tata kelola keuangan daerah di Tanah Papua yang akuntabel, transparan, dan mampu mengoptimalkan Pendapatan Asli Daerah (PAD) serta Dana Otonomi Khusus untuk peningkatan indeks pembangunan manusia (IPM) dan kemakmuran masyarakat luas.
-                </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {goals.map((goal, gIdx) => (
+                  <div
+                    key={gIdx}
+                    className="bg-white p-5 rounded-2xl border border-gray-200/90 flex items-start gap-3.5 shadow-xs hover:border-[#640404] transition-colors"
+                  >
+                    <span className="w-7 h-7 rounded-xl bg-[#640404]/10 text-[#640404] font-black text-xs flex items-center justify-center flex-shrink-0 mt-0.5">
+                      {gIdx + 1}
+                    </span>
+                    <p className="text-xs sm:text-sm text-gray-700 leading-relaxed font-normal">
+                      {goal}
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
+
           </div>
         )}
 

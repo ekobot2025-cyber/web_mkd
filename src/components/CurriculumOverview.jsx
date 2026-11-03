@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { 
-  BookOpen, Clock, Award, FileText, ArrowRight, Download, CheckCircle, Sparkles 
+  BookOpen, Clock, Award, FileText, ArrowRight, Download, CheckCircle, Sparkles, Monitor, Users 
 } from 'lucide-react';
-import { curriculumData } from '../data/curriculumData';
+import { curriculumData, curriculumSchedule } from '../data/curriculumData';
 
 export default function CurriculumOverview() {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = [
     { label: "Semua Tahap", semesterIndex: null },
-    { label: "Matrikulasi", semesterIndex: 0 },
+    { label: "Pra-Program (Non-SKS)", semesterIndex: 0 },
     { label: "Semester I", semesterIndex: 1 },
     { label: "Semester II", semesterIndex: 2 },
     { label: "Semester III", semesterIndex: 3 },
@@ -26,26 +26,63 @@ export default function CurriculumOverview() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header (Edumint Style) */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <div className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#640404]/10 border border-[#640404]/20 text-[#640404] text-xs font-bold tracking-wide mb-3">
             <Sparkles className="w-3.5 h-3.5 text-[#FFB013]" />
-            <span>STRUKTUR KURIKULUM & MATA KULIAH</span>
+            <span>STRUKTUR KURIKULUM 42 SKS</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-black text-[#640404] tracking-tight">
-            Kurikulum Terstruktur Berbasis Keahlian Fiskal
+            Kurikulum & Mata Kuliah MKD UNCEN
           </h2>
-          <p className="text-base text-gray-600 mt-3 leading-relaxed font-normal">
-            Dirancang secara komprehensif selama 4 semester untuk membekali mahasiswa dengan kemampuan analitis, hukum keuangan negara, dan formulasi kebijakan publik di Tanah Papua.
+          <p className="text-sm sm:text-base text-gray-600 mt-3 leading-relaxed font-normal">
+            Program MKD dilaksanakan dengan sistem kredit Satuan Kredit Semester (SKS) sebanyak <strong>42 SKS</strong>, yang terdiri dari <strong>5 mata kuliah pra-program (non-SKS)</strong> dan <strong>14 mata kuliah inti termasuk tesis (42 SKS)</strong>.
           </p>
         </div>
 
+        {/* Waktu Perkuliahan Card (Sesuai Brosur Resmi) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+          <div className="bg-white p-6 sm:p-7 rounded-3xl border-2 border-[#640404]/20 shadow-md flex items-start gap-4">
+            <div className="w-12 h-12 rounded-2xl bg-[#640404] text-[#FFB013] flex items-center justify-center flex-shrink-0 shadow-md">
+              <Users className="w-6 h-6" />
+            </div>
+            <div className="space-y-1">
+              <span className="text-[11px] font-black text-[#640404] uppercase tracking-wider block">
+                Jadwal Perkuliahan Tatap Muka
+              </span>
+              <h3 className="text-base sm:text-lg font-black text-gray-900">
+                Kelas Reguler (Wilayah Jayapura & Sekitarnya)
+              </h3>
+              <p className="text-xs text-gray-600 leading-relaxed font-normal">
+                Dilaksanakan setiap <strong>Hari Senin – Jumat</strong> pukul <strong>17.00 – 19.00 WIT</strong> di Kampus Pascasarjana Uncen Abepura.
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-white p-6 sm:p-7 rounded-3xl border-2 border-[#FFB013] shadow-md flex items-start gap-4 bg-gradient-to-br from-white to-amber-50/30">
+            <div className="w-12 h-12 rounded-2xl bg-[#FFB013] text-[#450202] flex items-center justify-center flex-shrink-0 shadow-md">
+              <Monitor className="w-6 h-6" />
+            </div>
+            <div className="space-y-1">
+              <span className="text-[11px] font-black text-[#640404] uppercase tracking-wider block">
+                Sistem Hybrid Learning Fleksibel
+              </span>
+              <h3 className="text-base sm:text-lg font-black text-gray-900">
+                Kelas Khusus (Luar Jayapura / Pemda)
+              </h3>
+              <p className="text-xs text-gray-600 leading-relaxed font-normal">
+                Dilaksanakan dengan sistem <strong>Hybrid Learning</strong> interaktif menggunakan platform resmi <strong>Office 365 (Microsoft Teams)</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Tab Filters (Edumint Style: Golden Yellow & Maroon) */}
-        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-12">
+        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-10">
           {tabs.map((tab, idx) => (
             <button
               key={idx}
               onClick={() => setActiveTab(idx)}
-              className={`px-5 py-2.5 rounded-full text-xs sm:text-sm font-black transition-all duration-200 ${
+              className={`px-4 sm:px-5 py-2 sm:py-2.5 rounded-full text-xs sm:text-sm font-black transition-all duration-200 ${
                 activeTab === idx
                   ? 'bg-[#FFB013] text-[#380202] shadow-md shadow-yellow-500/30 scale-105'
                   : 'bg-white text-gray-700 hover:text-[#640404] hover:bg-yellow-50/50 border border-gray-200'

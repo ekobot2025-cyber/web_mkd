@@ -2,33 +2,49 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   GraduationCap, BookOpen, ExternalLink, Award, ArrowRight, Sparkles, 
-  Search, X, Mail 
+  Search, X, Mail, Building2, UserCheck
 } from 'lucide-react';
-import { dosenList } from '../data/dosenData';
+import { dosenList, dosenTamuList } from '../data/dosenData';
 
 export default function DosenSection({ limit = null, showFilter = true }) {
   const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('ALL'); // ALL, UNCEN, TAMU
   const [selectedRank, setSelectedRank] = useState('ALL');
 
+  // Gabungkan seluruh pengajar resmi (21 Tetap + 6 Tamu)
+  const allLecturers = [...dosenList, ...dosenTamuList];
+
   const rankFilters = [
-    { id: 'ALL', label: 'Semua' },
+    { id: 'ALL', label: 'Semua Jabatan' },
     { id: 'Guru Besar', label: 'Guru Besar' },
     { id: 'Lektor Kepala', label: 'Lektor Kepala' },
     { id: 'Lektor', label: 'Lektor' },
   ];
 
-  const filteredDosen = dosenList.filter((dosen) => {
+  const categoryFilters = [
+    { id: 'ALL', label: 'Semua Pengajar', count: allLecturers.length },
+    { id: 'UNCEN', label: 'Dosen Tetap UNCEN', count: dosenList.length },
+    { id: 'TAMU', label: 'Dosen Tamu Mitra', count: dosenTamuList.length },
+  ];
+
+  const filteredDosen = allLecturers.filter((dosen) => {
+    // Filter Kategori
+    if (selectedCategory === 'UNCEN' && dosen.kategori !== 'Dosen Tetap UNCEN') return false;
+    if (selectedCategory === 'TAMU' && dosen.kategori !== 'Dosen Tamu Mitra') return false;
+
+    // Filter Jabatan Akademik (Rank)
+    if (selectedRank !== 'ALL' && dosen.rank !== selectedRank) return false;
+
+    // Search Term
+    if (!searchTerm.trim()) return true;
     const term = searchTerm.toLowerCase();
     const matchName = dosen.nama.toLowerCase().includes(term);
     const matchNip = (dosen.nip || '').includes(term);
     const matchBidang = (dosen.bidang || '').toLowerCase().includes(term);
+    const matchInstansi = (dosen.instansi || '').toLowerCase().includes(term);
     const matchDetails = (dosen.details || []).some((d) => d.toLowerCase().includes(term));
-    const matchesSearch = matchName || matchNip || matchBidang || matchDetails;
 
-    if (!matchesSearch) return false;
-
-    if (selectedRank === 'ALL') return true;
-    return dosen.rank === selectedRank;
+    return matchName || matchNip || matchBidang || matchInstansi || matchDetails;
   });
 
   const displayedDosen = limit ? filteredDosen.slice(0, limit) : filteredDosen;
@@ -47,19 +63,47 @@ export default function DosenSection({ limit = null, showFilter = true }) {
             Akademisi Berkualifikasi Doktor & Profesor
           </h2>
           <p className="text-xs sm:text-sm text-gray-600 mt-2.5 leading-relaxed font-normal">
-            Staf pengajar Program Studi Magister Keuangan Daerah Pascasarjana Universitas Cenderawasih terurut menurut jenjang jabatan akademik, dilengkapi tautan langsung publikasi Google Scholar & SINTA.
+            Staf pengajar Program Studi Magister Keuangan Daerah Pascasarjana Universitas Cenderawasih terdiri dari 21 Dosen Tetap Uncen dan 6 Dosen Tamu Mitra (Unhas, Univ. Otow & Geisler, UKI Jakarta) bergelar Doktor dan Guru Besar.
           </p>
           <div className="w-16 h-1 bg-[#FFB013] mx-auto mt-4 rounded-full"></div>
         </div>
 
-        {/* Search & Filter Bar (Active on Full Page or when showFilter is true) */}
+        {/* Search & Filter Bar */}
         {showFilter && (
-          <div className="max-w-3xl mx-auto mb-10 space-y-3.5">
+          <div className="max-w-4xl mx-auto mb-10 space-y-4">
+            {/* Category Switcher Tabs */}
+            <div className="flex items-center justify-center gap-2 p-1 bg-gray-100 rounded-2xl max-w-lg mx-auto">
+              {categoryFilters.map((cat) => {
+                const active = selectedCategory === cat.id;
+                return (
+                  <button
+                    key={cat.id}
+                    onClick={() => setSelectedCategory(cat.id)}
+                    className={`flex-1 py-2 px-3 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-1.5 ${
+                      active
+                        ? 'bg-[#640404] text-white shadow-sm'
+                        : 'text-gray-700 hover:text-[#640404] hover:bg-white/60'
+                    }`}
+                  >
+                    <span>{cat.label}</span>
+                    <span
+                      className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${
+                        active ? 'bg-white/20 text-white' : 'bg-gray-200 text-gray-700'
+                      }`}
+                    >
+                      {cat.count}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Search Input */}
             <div className="relative">
               <Search className="w-4 h-4 text-gray-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
               <input
                 type="text"
-                placeholder="Cari nama dosen, gelar, NIP, atau kepakaran (misal: Paulus Allo, Balthazar, dll)..."
+                placeholder="Cari nama dosen, gelar, NIP, instansi, atau kepakaran (misal: Salle, Kambuaya, Pagalung, Syarifuddin)..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="w-full pl-10 pr-10 py-2.5 bg-gray-50/80 border border-gray-200 rounded-xl text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#640404] focus:border-transparent transition-all"
@@ -75,32 +119,21 @@ export default function DosenSection({ limit = null, showFilter = true }) {
               )}
             </div>
 
-            {/* Filter Chips */}
+            {/* Rank Filter Chips */}
             <div className="flex items-center justify-center gap-2 flex-wrap text-xs">
               {rankFilters.map((rf) => {
                 const active = selectedRank === rf.id;
-                const count = rf.id === 'ALL'
-                  ? dosenList.length
-                  : dosenList.filter((d) => d.rank === rf.id).length;
-
                 return (
                   <button
                     key={rf.id}
                     onClick={() => setSelectedRank(rf.id)}
-                    className={`px-3.5 py-1.5 rounded-lg font-bold transition-all text-xs flex items-center gap-1.5 ${
+                    className={`px-3 py-1 rounded-lg font-semibold transition-all text-xs flex items-center gap-1.5 ${
                       active
-                        ? 'bg-[#640404] text-white shadow-sm'
+                        ? 'bg-[#FFB013] text-[#380202] shadow-sm font-bold'
                         : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
                     }`}
                   >
                     <span>{rf.label}</span>
-                    <span
-                      className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${
-                        active ? 'bg-white/20 text-white' : 'bg-gray-100 text-gray-600'
-                      }`}
-                    >
-                      {count}
-                    </span>
                   </button>
                 );
               })}
@@ -112,11 +145,12 @@ export default function DosenSection({ limit = null, showFilter = true }) {
           </div>
         )}
 
-        {/* Lecturer Cards Grid (Adapted from web_utama_akt & web_ie) */}
+        {/* Lecturer Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
           {displayedDosen.map((dosen) => {
             const isGuruBesar = dosen.rank === 'Guru Besar';
             const isLektorKepala = dosen.rank === 'Lektor Kepala';
+            const isTamu = dosen.kategori === 'Dosen Tamu Mitra';
             const educations = (dosen.details || []).filter((d) =>
               d.toLowerCase().startsWith('s1') ||
               d.toLowerCase().startsWith('s2') ||
@@ -141,6 +175,16 @@ export default function DosenSection({ limit = null, showFilter = true }) {
                     loading="lazy"
                   />
 
+                  {/* Category Pill on top-left */}
+                  <span className={`absolute top-3 left-3 inline-flex items-center gap-1 text-[9px] font-bold px-2 py-0.5 rounded-md shadow ${
+                    isTamu 
+                      ? 'bg-blue-900 text-blue-100 border border-blue-700' 
+                      : 'bg-[#640404] text-white'
+                  }`}>
+                    {isTamu ? <Building2 className="w-2.5 h-2.5" /> : <UserCheck className="w-2.5 h-2.5" />}
+                    {isTamu ? 'Dosen Tamu' : 'Dosen Uncen'}
+                  </span>
+
                   {/* Rank Badges on Photo */}
                   {isGuruBesar && (
                     <span className="absolute top-3 right-3 inline-flex items-center gap-1 bg-[#FFB013] text-[#380202] text-[10px] font-black px-2 py-0.5 rounded-md shadow border border-yellow-400">
@@ -163,6 +207,16 @@ export default function DosenSection({ limit = null, showFilter = true }) {
                 {/* Content */}
                 <div className="p-3.5 sm:p-4 flex-1 flex flex-col justify-between">
                   <div>
+                    {/* Instansi Asal Dosen Tamu */}
+                    {dosen.instansi && (
+                      <div className="mb-1.5">
+                        <span className="inline-flex items-center gap-1 text-[10px] font-bold text-blue-800 bg-blue-50 border border-blue-200 px-2 py-0.5 rounded leading-tight">
+                          <Building2 className="w-2.5 h-2.5 shrink-0" />
+                          <span className="truncate">{dosen.instansi}</span>
+                        </span>
+                      </div>
+                    )}
+
                     {/* Name */}
                     <h3 className="text-xs sm:text-[13px] font-black text-gray-900 group-hover:text-[#640404] transition-colors line-clamp-2 leading-snug mb-1 min-h-[2.3rem]">
                       {dosen.nama}
@@ -176,11 +230,13 @@ export default function DosenSection({ limit = null, showFilter = true }) {
                     )}
 
                     {/* Jabatan & Bidang */}
-                    <div className="mt-1.5 flex flex-wrap gap-1">
-                      <span className="inline-block text-[10px] font-bold text-[#8A5C00] bg-yellow-50 border border-yellow-200 px-1.5 py-0.5 rounded truncate max-w-full">
-                        {dosen.jabatan}
-                      </span>
-                    </div>
+                    {dosen.jabatan && (
+                      <div className="mt-1.5 flex flex-wrap gap-1">
+                        <span className="inline-block text-[10px] font-bold text-[#8A5C00] bg-yellow-50 border border-yellow-200 px-1.5 py-0.5 rounded truncate max-w-full">
+                          {dosen.jabatan}
+                        </span>
+                      </div>
+                    )}
 
                     <p className="text-[11px] text-gray-600 line-clamp-2 mt-1 leading-relaxed">
                       {dosen.bidang}
@@ -206,7 +262,7 @@ export default function DosenSection({ limit = null, showFilter = true }) {
                   {/* Scholar, SINTA, Scopus & Email Action Buttons */}
                   <div className="pt-2.5 mt-2.5 border-t border-gray-100 flex items-center justify-between gap-1 flex-wrap">
                     <div className="flex items-center gap-1.5 flex-wrap">
-                      {/* Google Scholar Button (Edumint Warm Gold Theme) */}
+                      {/* Google Scholar Button */}
                       {dosen.scholarUrl && (
                         <a
                           href={dosen.scholarUrl}
@@ -221,7 +277,7 @@ export default function DosenSection({ limit = null, showFilter = true }) {
                         </a>
                       )}
 
-                      {/* SINTA Button (Warm Orange Theme) */}
+                      {/* SINTA Button */}
                       {dosen.sintaUrl && (
                         <a
                           href={dosen.sintaUrl}
@@ -236,7 +292,7 @@ export default function DosenSection({ limit = null, showFilter = true }) {
                         </a>
                       )}
 
-                      {/* Scopus Button if available (Uncen Maroon Theme) */}
+                      {/* Scopus Button */}
                       {dosen.scopusUrl && (
                         <a
                           href={dosen.scopusUrl}
@@ -276,7 +332,7 @@ export default function DosenSection({ limit = null, showFilter = true }) {
               to="/dosen"
               className="inline-flex items-center gap-2 bg-[#640404] hover:bg-[#450202] text-white px-8 py-3.5 rounded-full font-bold text-sm shadow-md hover:shadow-lg transition-all"
             >
-              <span>Lihat Seluruh 21 Tenaga Pengajar & Guru Besar</span>
+              <span>Lihat Seluruh 27 Tenaga Pengajar & Guru Besar</span>
               <ArrowRight className="w-4 h-4 text-[#FFB013]" />
             </Link>
           </div>

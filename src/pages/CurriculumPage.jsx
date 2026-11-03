@@ -26,27 +26,46 @@ export default function CurriculumPage() {
       {/* Tesis & Download Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Tesis Info */}
-          <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm space-y-4">
-            <div className="p-3 bg-maroon/10 text-maroon rounded-xl w-fit">
-              <BookOpen className="w-6 h-6" />
+          {/* Tesis & Penyelesaian Studi Info */}
+          <div className="bg-white p-8 rounded-3xl border border-gray-200 shadow-md space-y-4">
+            <div className="p-3 bg-[#640404]/10 text-[#640404] rounded-2xl w-fit">
+              <Award className="w-6 h-6 text-[#FFB013]" />
             </div>
-            <h3 className="text-lg font-bold text-primary">Ketentuan Penulisan Tesis (6 SKS)</h3>
-            <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-              Mahasiswa wajib menyusun karya ilmiah mandiri berupa Tesis yang mengkaji isu strategis keuangan daerah di bawah bimbingan 2 orang dosen pembimbing (Komisi Pembimbing) berkualifikasi Doktor/Guru Besar.
+            <div>
+              <span className="text-[11px] font-black text-[#640404] uppercase tracking-wider block">
+                Gelar Akademik: Magister Sains (M.Si.)
+              </span>
+              <h3 className="text-xl font-black text-gray-900 mt-0.5">
+                Ketentuan Penyelesaian Pendidikan S2 MKD
+              </h3>
+            </div>
+            <p className="text-xs sm:text-sm text-gray-600 leading-relaxed font-normal">
+              Mahasiswa dinyatakan selesai dan berhak menyandang gelar <strong>Magister Sains (M.Si.)</strong> bidang Keuangan Daerah bila memenuhi ketentuan resmi:
             </p>
-            <ul className="space-y-2 text-xs text-gray-700">
-              <li className="flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-maroon flex-shrink-0" />
-                <span>Lulus seluruh mata kuliah semester I s/d III dengan IPK minimal 3.00</span>
+            <ul className="space-y-2.5 text-xs text-gray-700 pt-1">
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="w-4 h-4 text-[#FFB013] flex-shrink-0 mt-0.5" />
+                <span>Telah menyelesaikan seluruh perkuliahan (39 SKS teori & praktikum)</span>
               </li>
-              <li className="flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-maroon flex-shrink-0" />
-                <span>Lolos uji orisinalitas/plagiarisme (Turnitin maksimal 20%)</span>
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="w-4 h-4 text-[#FFB013] flex-shrink-0 mt-0.5" />
+                <span>Telah menyelesaikan Tesis (bobot 6 SKS) dan dinyatakan Lulus ujian sidang</span>
               </li>
-              <li className="flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-maroon flex-shrink-0" />
-                <span>Wajib publikasi di Jurnal Ilmiah (Jurnal KEUDA atau jurnal terindeks SINTA)</span>
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="w-4 h-4 text-[#FFB013] flex-shrink-0 mt-0.5" />
+                <span>Indeks Prestasi Kumulatif (IPK) minimal <strong>3.00</strong>, tanpa nilai C</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="w-4 h-4 text-[#FFB013] flex-shrink-0 mt-0.5" />
+                <span>Menempuh tes TOEFL dengan skor minimal <strong>400</strong></span>
+              </li>
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="w-4 h-4 text-[#FFB013] flex-shrink-0 mt-0.5" />
+                <span>Telah mengumpulkan Artikel atau Karya Ilmiah untuk publikasi jurnal</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="w-4 h-4 text-[#FFB013] flex-shrink-0 mt-0.5" />
+                <span>Lulus Tes Potensi Akademik (TPA) dengan nilai minimal <strong>350</strong></span>
               </li>
             </ul>
           </div>

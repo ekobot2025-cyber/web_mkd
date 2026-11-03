@@ -179,11 +179,17 @@ export default function Footer() {
                 </a>
               </div>
 
-              <div className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-[#FFB013] flex-shrink-0" />
-                <a href="https://wa.me/62811481847" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-                  +62 811-481-847
-                </a>
+              <div className="space-y-1 pt-0.5">
+                <div className="flex items-center gap-2.5">
+                  <Phone className="w-4 h-4 text-[#FFB013] flex-shrink-0" />
+                  <span className="text-xs text-gray-300">Telp (fax): <a href="tel:0967586716" className="hover:text-[#FFB013] font-semibold">0967-586716</a></span>
+                </div>
+                <div className="flex items-center gap-2.5 pl-6.5 text-xs text-gray-300">
+                  <span>Sekretariat: <a href="https://wa.me/62811481847" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFB013] font-semibold">+62 811481847</a></span>
+                </div>
+                <div className="flex items-center gap-2.5 pl-6.5 text-xs text-gray-400">
+                  <span>Narahubung: Klara (<a href="https://wa.me/6281234939326" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFB013] font-semibold">081234939326</a>) • Hesty (<a href="https://wa.me/6285244494825" target="_blank" rel="noopener noreferrer" className="hover:text-[#FFB013] font-semibold">085244494825</a>)</span>
+                </div>
               </div>
 
               <div className="flex items-center gap-2.5 pt-1 text-xs text-gray-400">

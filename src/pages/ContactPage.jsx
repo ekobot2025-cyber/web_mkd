@@ -55,20 +55,33 @@ export default function ContactPage() {
                 <div>
                   <h4 className="font-bold text-gray-900">Kampus Uncen Abepura</h4>
                   <p className="text-gray-600 mt-1">
-                    (Depan Gedung Magister Akuntansi), Jl. Raya Abepura-Sentani, Abepura, Kota Jayapura, Papua 99358
+                    Gedung Program Pascasarjana Universitas Cenderawasih, Kampus Abepura, Kota Jayapura, Papua 99358
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3 bg-gray-50 p-4 rounded-xl border border-gray-200">
                 <Phone className="w-5 h-5 text-maroon flex-shrink-0 mt-0.5" />
-                <div>
-                  <h4 className="font-bold text-gray-900">Telepon / WhatsApp</h4>
-                  <p className="text-gray-600 mt-1">
-                    <a href="https://wa.me/62811481847" className="text-primary font-semibold hover:underline">
-                      (+62) 0811481847
-                    </a>
-                  </p>
+                <div className="space-y-1.5 w-full">
+                  <h4 className="font-bold text-gray-900">Telepon & Kontak Narahubung</h4>
+                  <div className="text-gray-700 space-y-1">
+                    <p className="flex items-center justify-between">
+                      <span className="text-gray-500">Telp (Fax) Kantor:</span>
+                      <a href="tel:0967586716" className="font-semibold text-primary hover:underline">0967-586716</a>
+                    </p>
+                    <p className="flex items-center justify-between">
+                      <span className="text-gray-500">Sekretariat:</span>
+                      <a href="https://wa.me/62811481847" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary hover:underline">+62 811481847</a>
+                    </p>
+                    <p className="flex items-center justify-between">
+                      <span className="text-gray-500">Narahubung (Klara):</span>
+                      <a href="https://wa.me/6281234939326" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary hover:underline">+62 812-3493-9326</a>
+                    </p>
+                    <p className="flex items-center justify-between">
+                      <span className="text-gray-500">Narahubung (Hesty):</span>
+                      <a href="https://wa.me/6285244494825" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary hover:underline">+62 852-4449-4825</a>
+                    </p>
+                  </div>
                 </div>
               </div>
 

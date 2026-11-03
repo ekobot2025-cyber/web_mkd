@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 export default function StatsBar() {
   const stats = [
     {
-      value: '14+',
-      label: 'Dosen Doktor & Guru Besar',
+      value: '21+',
+      label: 'Dosen Pakar & Guru Besar',
       link: '/dosen',
       isInternal: true,
     },
     {
-      value: 'BAN-PT',
-      label: 'Terakreditasi Nasional',
+      value: 'AKREDITASI B',
+      label: 'SK BAN-PT 13811/2021',
       link: '/visi-misi',
       isInternal: true,
     },
@@ -22,10 +22,10 @@ export default function StatsBar() {
       isInternal: true,
     },
     {
-      value: 'RATUSAN',
-      label: 'Alumni Pimpinan di Papua',
-      link: 'https://tracer.mkduncen.ac.id',
-      isInternal: false,
+      value: 'M.Si.',
+      label: 'Gelar Magister Sains',
+      link: '/pendaftaran',
+      isInternal: true,
     },
   ];
 
