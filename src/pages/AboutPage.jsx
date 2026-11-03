@@ -591,25 +591,6 @@ export default function AboutPage() {
               </div>
 
             </div>
-
-            {/* Bagan Organisasi Visual Card */}
-            <div className="bg-gray-50 p-6 sm:p-10 rounded-3xl border border-gray-200 mt-8">
-              <div className="max-w-3xl mx-auto text-center space-y-4">
-                <h4 className="text-base sm:text-lg font-black text-[#640404]">
-                  Bagan Alur Organisasi MKD Pascasarjana UNCEN
-                </h4>
-                <div className="rounded-2xl overflow-hidden shadow-md border border-gray-200 bg-white p-2">
-                  <img
-                    src="/assets/img/photos/Struktur.jpg"
-                    alt="Bagan Struktur Organisasi Magister Keuangan Daerah UNCEN"
-                    className="w-full h-auto object-contain rounded-xl max-h-[600px] mx-auto hover:scale-102 transition-transform duration-300"
-                  />
-                </div>
-                <p className="text-xs text-gray-500 italic">
-                  * Bagan struktur organisasi resmi Program Studi Magister Keuangan Daerah (MKD) Pascasarjana Universitas Cenderawasih.
-                </p>
-              </div>
-            </div>
           </div>
         )}
 
