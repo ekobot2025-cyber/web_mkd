@@ -80,7 +80,7 @@ export const dosenList = [
       "Pengajar Manajemen Pemerintah Daerah"
     ],
     email: "akbar_silo@mkduncen.ac.id",
-    foto: "/uploads/photos/user.jpg",
+    foto: "/uploads/dosen_mkd/akbar-silo.png",
     scholarUrl: "https://scholar.google.com/scholar?q=Akbar+Silo+Universitas+Cenderawasih",
     sintaUrl: "https://sinta.kemdiktisaintek.go.id/authors?q=Akbar+Silo",
     scopusUrl: null
